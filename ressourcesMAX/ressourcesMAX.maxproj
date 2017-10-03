@@ -2,7 +2,7 @@
 	"name" : "ressourcesMAX",
 	"version" : 1,
 	"creationdate" : -707384100,
-	"modificationdate" : -705538969,
+	"modificationdate" : -705075958,
 	"viewrect" : [ 9.0, 118.0, 321.0, 622.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -11,6 +11,11 @@
 	"contents" : 	{
 		"patchers" : 		{
 			"assemblage.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"lecteurAudio.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -66,18 +71,28 @@
 				"local" : 1
 			}
 ,
+			"trackingCouleur.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"dessin.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
 			"mainAnalyseAudio.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1,
 				"toplevel" : 1
 			}
 ,
-			"analyseSpectrale.maxpat" : 			{
+			"pitchDetection.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
 ,
-			"analyseSpectrale_10b.maxpat" : 			{
+			"detectionEnveloppe.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -87,12 +102,17 @@
 				"local" : 1
 			}
 ,
-			"trackingCouleur.maxpat" : 			{
+			"filtreBande.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
 ,
-			"dessin.maxpat" : 			{
+			"analyseSpectrale_10b.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"analyseSpectrale.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -177,21 +197,6 @@
 				"kind" : "patcher",
 				"local" : 1
 			}
-,
-			"pitchDetection.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"detectionEnveloppe.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"filtreBande.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
 
 		}
 ,
@@ -223,6 +228,11 @@
 ,
 			"chickens.mp4" : 			{
 				"kind" : "moviefile",
+				"local" : 1
+			}
+,
+			"audioStereo.wav" : 			{
+				"kind" : "audiofile",
 				"local" : 1
 			}
 ,
