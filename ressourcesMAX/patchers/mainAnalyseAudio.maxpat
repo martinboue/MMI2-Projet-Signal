@@ -38,13 +38,52 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-32",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 597.0, 292.0, 29.0, 20.0 ],
+					"presentation_rect" : [ 560.5, 290.0, 0.0, 0.0 ],
+					"style" : "",
+					"text" : "Q"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-29",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 450.5, 292.0, 112.0, 20.0 ],
+					"style" : "",
+					"text" : "fréquence centrale"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"format" : 6,
+					"id" : "obj-19",
+					"maxclass" : "flonum",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 579.5, 314.0, 54.0, 22.0 ],
+					"presentation_rect" : [ 553.5, 316.0, 0.0, 0.0 ],
+					"style" : ""
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-31",
 					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 532.0, 22.0, 80.0, 33.0 ],
-					"presentation_rect" : [ 527.0, 23.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "fin boucle (ms)"
 				}
@@ -254,7 +293,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 576.0, 320.0, 50.0, 22.0 ],
+					"patching_rect" : [ 482.5, 314.0, 66.0, 22.0 ],
 					"style" : ""
 				}
 
@@ -301,7 +340,7 @@
 				"box" : 				{
 					"id" : "obj-68",
 					"maxclass" : "newobj",
-					"numinlets" : 2,
+					"numinlets" : 3,
 					"numoutlets" : 3,
 					"outlettype" : [ "signal", "signal", "" ],
 					"patching_rect" : [ 414.0, 349.0, 156.0, 22.0 ],
@@ -318,21 +357,21 @@
 								"filekind" : "audiofile",
 								"loop" : 1,
 								"content_state" : 								{
-									"pitchcorrection" : [ 0 ],
-									"originallengthms" : [ 0.0 ],
-									"speed" : [ 1.0 ],
 									"formantcorrection" : [ 0 ],
-									"slurtime" : [ 0.0 ],
-									"play" : [ 0 ],
-									"mode" : [ "basic" ],
-									"originallength" : [ 0.0, "ticks" ],
-									"formant" : [ 1.0 ],
 									"quality" : [ "basic" ],
-									"followglobaltempo" : [ 0 ],
-									"originaltempo" : [ 120.0 ],
-									"basictuning" : [ 440 ],
+									"formant" : [ 1.0 ],
+									"originallength" : [ 0.0, "ticks" ],
 									"pitchshift" : [ 1.0 ],
-									"timestretch" : [ 0 ]
+									"originaltempo" : [ 120.0 ],
+									"speed" : [ 1.0 ],
+									"mode" : [ "basic" ],
+									"basictuning" : [ 440 ],
+									"originallengthms" : [ 0.0 ],
+									"followglobaltempo" : [ 0 ],
+									"pitchcorrection" : [ 0 ],
+									"play" : [ 0 ],
+									"timestretch" : [ 0 ],
+									"slurtime" : [ 0.0 ]
 								}
 
 							}
@@ -344,7 +383,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 5,
 					"outlettype" : [ "signal", "signal", "signal", "", "dictionary" ],
-					"patching_rect" : [ 414.0, 270.5, 150.0, 30.0 ],
+					"patching_rect" : [ 414.0, 255.5, 150.0, 30.0 ],
 					"style" : ""
 				}
 
@@ -399,21 +438,21 @@
 								"filekind" : "audiofile",
 								"loop" : 1,
 								"content_state" : 								{
-									"pitchcorrection" : [ 0 ],
-									"originallengthms" : [ 0.0 ],
-									"speed" : [ 1.0 ],
 									"formantcorrection" : [ 0 ],
-									"slurtime" : [ 0.0 ],
-									"play" : [ 0 ],
-									"mode" : [ "basic" ],
-									"originallength" : [ 0.0, "ticks" ],
-									"formant" : [ 1.0 ],
 									"quality" : [ "basic" ],
-									"followglobaltempo" : [ 0 ],
-									"originaltempo" : [ 120.0 ],
-									"basictuning" : [ 440 ],
+									"formant" : [ 1.0 ],
+									"originallength" : [ 0.0, "ticks" ],
 									"pitchshift" : [ 1.0 ],
-									"timestretch" : [ 0 ]
+									"originaltempo" : [ 120.0 ],
+									"speed" : [ 1.0 ],
+									"mode" : [ "basic" ],
+									"basictuning" : [ 440 ],
+									"originallengthms" : [ 0.0 ],
+									"followglobaltempo" : [ 0 ],
+									"pitchcorrection" : [ 0 ],
+									"play" : [ 0 ],
+									"timestretch" : [ 0 ],
+									"slurtime" : [ 0.0 ]
 								}
 
 							}
@@ -474,21 +513,21 @@
 								"filekind" : "audiofile",
 								"loop" : 1,
 								"content_state" : 								{
-									"pitchcorrection" : [ 0 ],
-									"originallengthms" : [ 0.0 ],
-									"speed" : [ 1.0 ],
 									"formantcorrection" : [ 0 ],
-									"slurtime" : [ 0.0 ],
-									"play" : [ 0 ],
-									"mode" : [ "basic" ],
-									"originallength" : [ 0.0, "ticks" ],
-									"formant" : [ 1.0 ],
 									"quality" : [ "basic" ],
-									"followglobaltempo" : [ 0 ],
-									"originaltempo" : [ 120.0 ],
-									"basictuning" : [ 440 ],
+									"formant" : [ 1.0 ],
+									"originallength" : [ 0.0, "ticks" ],
 									"pitchshift" : [ 1.0 ],
-									"timestretch" : [ 0 ]
+									"originaltempo" : [ 120.0 ],
+									"speed" : [ 1.0 ],
+									"mode" : [ "basic" ],
+									"basictuning" : [ 440 ],
+									"originallengthms" : [ 0.0 ],
+									"followglobaltempo" : [ 0 ],
+									"pitchcorrection" : [ 0 ],
+									"play" : [ 0 ],
+									"timestretch" : [ 0 ],
+									"slurtime" : [ 0.0 ]
 								}
 
 							}
@@ -757,6 +796,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-68", 2 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-19", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-8", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -914,30 +962,30 @@
 			}
  ],
 		"parameters" : 		{
+			"obj-35::obj-13" : [ "flonum", "flonum", 0 ],
+			"obj-35::obj-16" : [ "flonum[1]", "flonum[1]", 0 ],
+			"obj-68::obj-19::obj-13" : [ "flonum[23]", "flonum", 0 ],
+			"obj-1::obj-8::obj-19::obj-16" : [ "flonum[16]", "flonum[1]", 0 ],
+			"obj-1::obj-14::obj-19::obj-16" : [ "flonum[12]", "flonum[1]", 0 ],
+			"obj-1::obj-20::obj-19::obj-16" : [ "flonum[6]", "flonum[1]", 0 ],
+			"obj-1::obj-16::obj-19::obj-16" : [ "flonum[2]", "flonum[1]", 0 ],
 			"obj-1::obj-2::obj-19::obj-13" : [ "flonum[21]", "flonum", 0 ],
-			"obj-1::obj-10::obj-19::obj-16" : [ "flonum[14]", "flonum[1]", 0 ],
+			"obj-1::obj-8::obj-19::obj-13" : [ "flonum[17]", "flonum", 0 ],
+			"obj-1::obj-24::obj-19::obj-13" : [ "flonum[11]", "flonum", 0 ],
+			"obj-1::obj-20::obj-19::obj-13" : [ "flonum[7]", "flonum", 0 ],
+			"obj-1::obj-2::obj-19::obj-16" : [ "flonum[20]", "flonum[1]", 0 ],
+			"obj-1::obj-10::obj-19::obj-13" : [ "flonum[15]", "flonum", 0 ],
 			"obj-1::obj-24::obj-19::obj-16" : [ "flonum[10]", "flonum[1]", 0 ],
 			"obj-1::obj-18::obj-19::obj-13" : [ "flonum[5]", "flonum", 0 ],
-			"obj-1::obj-6::obj-19::obj-16" : [ "flonum[22]", "flonum[1]", 0 ],
-			"obj-1::obj-10::obj-19::obj-13" : [ "flonum[15]", "flonum", 0 ],
+			"obj-1::obj-6::obj-19::obj-16" : [ "flonum[18]", "flonum[1]", 0 ],
+			"obj-1::obj-10::obj-19::obj-16" : [ "flonum[14]", "flonum[1]", 0 ],
 			"obj-1::obj-22::obj-19::obj-16" : [ "flonum[8]", "flonum[1]", 0 ],
 			"obj-1::obj-18::obj-19::obj-16" : [ "flonum[4]", "flonum[1]", 0 ],
-			"obj-68::obj-19::obj-13" : [ "flonum[19]", "flonum", 0 ],
-			"obj-1::obj-6::obj-19::obj-13" : [ "flonum[18]", "flonum", 0 ],
+			"obj-1::obj-6::obj-19::obj-13" : [ "flonum[19]", "flonum", 0 ],
+			"obj-68::obj-19::obj-16" : [ "flonum[22]", "flonum[1]", 0 ],
 			"obj-1::obj-14::obj-19::obj-13" : [ "flonum[13]", "flonum", 0 ],
 			"obj-1::obj-22::obj-19::obj-13" : [ "flonum[9]", "flonum", 0 ],
-			"obj-35::obj-16" : [ "flonum[1]", "flonum[1]", 0 ],
-			"obj-68::obj-19::obj-16" : [ "flonum[23]", "flonum[1]", 0 ],
-			"obj-1::obj-16::obj-19::obj-13" : [ "flonum[3]", "flonum", 0 ],
-			"obj-1::obj-8::obj-19::obj-13" : [ "flonum[17]", "flonum", 0 ],
-			"obj-1::obj-14::obj-19::obj-16" : [ "flonum[12]", "flonum[1]", 0 ],
-			"obj-1::obj-20::obj-19::obj-13" : [ "flonum[7]", "flonum", 0 ],
-			"obj-35::obj-13" : [ "flonum", "flonum", 0 ],
-			"obj-1::obj-2::obj-19::obj-16" : [ "flonum[20]", "flonum[1]", 0 ],
-			"obj-1::obj-16::obj-19::obj-16" : [ "flonum[2]", "flonum[1]", 0 ],
-			"obj-1::obj-8::obj-19::obj-16" : [ "flonum[16]", "flonum[1]", 0 ],
-			"obj-1::obj-24::obj-19::obj-13" : [ "flonum[11]", "flonum", 0 ],
-			"obj-1::obj-20::obj-19::obj-16" : [ "flonum[6]", "flonum[1]", 0 ]
+			"obj-1::obj-16::obj-19::obj-13" : [ "flonum[3]", "flonum", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{

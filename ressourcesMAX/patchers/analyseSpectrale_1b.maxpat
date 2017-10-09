@@ -39,6 +39,20 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"comment" : "",
+					"id" : "obj-5",
+					"index" : 0,
+					"maxclass" : "inlet",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 517.0, 27.0, 30.0, 30.0 ],
+					"style" : ""
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-17",
 					"maxclass" : "message",
 					"numinlets" : 2,
@@ -57,7 +71,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 556.0, 47.0, 77.0, 22.0 ],
+					"patching_rect" : [ 646.0, 46.0, 77.0, 22.0 ],
 					"style" : "",
 					"text" : "loadmess 20."
 				}
@@ -67,7 +81,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-12",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -143,7 +157,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-3",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -250,7 +264,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 682.0, 69.0, 49.0, 22.0 ],
+					"patching_rect" : [ 772.0, 68.0, 49.0, 22.0 ],
 					"style" : "",
 					"text" : "filter Q"
 				}
@@ -260,7 +274,7 @@
 				"box" : 				{
 					"comment" : "output spectrum(for display)",
 					"id" : "obj-73",
-					"index" : 3,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -427,7 +441,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 673.0, 159.600006, 92.0, 22.0 ],
+					"patching_rect" : [ 763.0, 158.600006, 92.0, 22.0 ],
 					"style" : "",
 					"text" : "s #0-filter_Q"
 				}
@@ -445,7 +459,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 673.0, 106.0, 50.0, 22.0 ],
+					"patching_rect" : [ 763.0, 105.0, 50.0, 22.0 ],
 					"style" : "",
 					"varname" : "filter-Q"
 				}
@@ -455,12 +469,12 @@
 				"box" : 				{
 					"comment" : "filter Q",
 					"id" : "obj-29",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 673.0, 33.0, 25.0, 25.0 ],
+					"patching_rect" : [ 763.0, 32.0, 25.0, 25.0 ],
 					"style" : ""
 				}
 
@@ -471,7 +485,7 @@
 					"fontsize" : 11.595187,
 					"id" : "obj-4",
 					"maxclass" : "newobj",
-					"numinlets" : 0,
+					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 98.0, 257.0, 189.0, 22.0 ],
@@ -498,11 +512,11 @@
 				"box" : 				{
 					"comment" : "audio input",
 					"id" : "obj-1",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 11.0, 26.0, 25.0, 25.0 ],
 					"style" : ""
 				}
@@ -580,6 +594,15 @@
 					"hidden" : 0,
 					"order" : 0,
 					"source" : [ "obj-4", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-4", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-5", 0 ]
 				}
 
 			}
@@ -665,6 +688,25 @@
 
 			}
  ],
+		"parameters" : 		{
+			"obj-19::obj-13" : [ "flonum", "flonum", 0 ],
+			"obj-19::obj-16" : [ "flonum[1]", "flonum[1]", 0 ]
+		}
+,
+		"dependency_cache" : [ 			{
+				"name" : "filtreBande.maxpat",
+				"bootpath" : "~/Documents/GitKraken/S3-PROJET/ressourcesMAX/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "detectionEnveloppe.maxpat",
+				"bootpath" : "~/Documents/GitKraken/S3-PROJET/ressourcesMAX/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+ ],
+		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "AudioStatus_Menu",
 				"default" : 				{
