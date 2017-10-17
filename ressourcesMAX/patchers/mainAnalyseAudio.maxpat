@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 127.0, 79.0, 1372.0, 711.0 ],
+		"rect" : [ 365.0, 79.0, 1372.0, 711.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -37,6 +37,90 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-44",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 712.333374, 59.0, 247.0, 33.0 ],
+					"style" : "",
+					"text" : "argument 1 : nbr total samples piste audio\nargument 2 : temps à détecter en ms"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontface" : 0,
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-41",
+					"maxclass" : "number~",
+					"mode" : 2,
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "signal", "float" ],
+					"patching_rect" : [ 532.0, 163.0, 80.0, 22.0 ],
+					"sig" : 0.0,
+					"style" : ""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-39",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 699.666626, 22.0, 150.0, 20.0 ],
+					"presentation_rect" : [ 699.666626, 22.0, 0.0, 0.0 ],
+					"style" : "",
+					"text" : "détection manuelle audio"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-38",
+					"maxclass" : "button",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 712.333374, 144.0, 24.0, 24.0 ],
+					"style" : ""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-34",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 712.333374, 103.0, 255.0, 22.0 ],
+					"style" : "",
+					"text" : "detectionManuelleAudio.maxpat 996141 5000"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"angle" : 270.0,
+					"bgcolor" : [ 0.952941, 0.564706, 0.098039, 0.3 ],
+					"id" : "obj-23",
+					"maxclass" : "panel",
+					"mode" : 0,
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 693.0, 14.0, 285.0, 200.0 ],
+					"presentation_rect" : [ 735.666626, 16.0, 0.0, 0.0 ],
+					"proportion" : 0.39,
+					"style" : ""
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-37",
 					"maxclass" : "button",
@@ -209,7 +293,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 869.875, 445.5, 50.0, 22.0 ],
+					"patching_rect" : [ 872.875, 531.5, 50.0, 22.0 ],
 					"style" : ""
 				}
 
@@ -221,7 +305,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 824.0, 445.5, 29.5, 22.0 ],
+					"patching_rect" : [ 827.0, 531.5, 29.5, 22.0 ],
 					"style" : "",
 					"text" : "*~"
 				}
@@ -235,7 +319,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 881.875, 325.0, 24.0, 96.0 ],
+					"patching_rect" : [ 884.875, 411.0, 24.0, 96.0 ],
 					"size" : 500.0,
 					"style" : ""
 				}
@@ -288,7 +372,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 662.666626, 182.0, 161.0, 20.0 ],
+					"patching_rect" : [ 665.666626, 268.0, 161.0, 20.0 ],
 					"style" : "",
 					"text" : "analyse spectrale 10 bandes"
 				}
@@ -301,7 +385,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 11,
 					"outlettype" : [ "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "" ],
-					"patching_rect" : [ 865.0, 279.0, 185.0, 22.0 ],
+					"patching_rect" : [ 868.0, 365.0, 185.0, 22.0 ],
 					"style" : "",
 					"text" : "analyseSpectrale_10b"
 				}
@@ -434,7 +518,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1048.375, 485.0, 208.0, 140.0 ],
+					"patching_rect" : [ 1051.375, 571.0, 208.0, 140.0 ],
 					"setminmax" : [ 0.0, 700.0 ],
 					"setstyle" : 1,
 					"size" : 10,
@@ -448,7 +532,7 @@
 					"maxclass" : "ezdac~",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 690.0, 494.0, 45.0, 45.0 ],
+					"patching_rect" : [ 693.0, 580.0, 45.0, 45.0 ],
 					"style" : ""
 				}
 
@@ -487,7 +571,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 5,
 					"outlettype" : [ "signal", "signal", "signal", "", "dictionary" ],
-					"patching_rect" : [ 729.0, 219.0, 150.0, 30.0 ],
+					"patching_rect" : [ 732.0, 305.0, 150.0, 30.0 ],
 					"style" : ""
 				}
 
@@ -499,7 +583,7 @@
 					"maxclass" : "scope~",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 815.5, 494.0, 208.0, 131.0 ],
+					"patching_rect" : [ 818.5, 580.0, 208.0, 131.0 ],
 					"style" : ""
 				}
 
@@ -712,7 +796,7 @@
 					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 662.666626, 206.0, 610.0, 430.0 ],
+					"patching_rect" : [ 665.666626, 292.0, 610.0, 430.0 ],
 					"proportion" : 0.39,
 					"style" : ""
 				}
@@ -785,6 +869,26 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-12", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-34", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"order" : 0,
+					"source" : [ "obj-12", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-41", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"order" : 1,
+					"source" : [ "obj-12", 2 ]
 				}
 
 			}
@@ -868,6 +972,15 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-33", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-38", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-34", 0 ]
 				}
 
 			}
@@ -1081,6 +1194,12 @@
 			}
 , 			{
 				"name" : "detectionPic.maxpat",
+				"bootpath" : "~/Documents/GitKraken/S3-PROJET/ressourcesMAX/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "detectionManuelleAudio.maxpat",
 				"bootpath" : "~/Documents/GitKraken/S3-PROJET/ressourcesMAX/patchers",
 				"type" : "JSON",
 				"implicit" : 1

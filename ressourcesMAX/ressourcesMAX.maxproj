@@ -2,8 +2,8 @@
 	"name" : "ressourcesMAX",
 	"version" : 1,
 	"creationdate" : -707384100,
-	"modificationdate" : -703893833,
-	"viewrect" : [ 437.0, 221.0, 321.0, 622.0 ],
+	"modificationdate" : -703892913,
+	"viewrect" : [ 27.0, 70.0, 321.0, 622.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
@@ -199,6 +199,11 @@
 			}
 ,
 			"addition.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"detectionManuelleAudio.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
