@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 34.0, 79.0, 1372.0, 711.0 ],
+		"rect" : [ 127.0, 79.0, 1372.0, 711.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -38,12 +38,36 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-37",
+					"maxclass" : "button",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 40.666626, 639.0, 24.0, 24.0 ],
+					"style" : ""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-33",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 40.666626, 597.0, 118.0, 22.0 ],
+					"style" : "",
+					"text" : "detectionPic.maxpat"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-32",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 597.0, 292.0, 29.0, 20.0 ],
-					"presentation_rect" : [ 560.5, 290.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "Q"
 				}
@@ -71,7 +95,6 @@
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 579.5, 314.0, 54.0, 22.0 ],
-					"presentation_rect" : [ 553.5, 316.0, 0.0, 0.0 ],
 					"style" : ""
 				}
 
@@ -357,21 +380,21 @@
 								"filekind" : "audiofile",
 								"loop" : 1,
 								"content_state" : 								{
-									"formantcorrection" : [ 0 ],
-									"quality" : [ "basic" ],
-									"formant" : [ 1.0 ],
-									"originallength" : [ 0.0, "ticks" ],
-									"pitchshift" : [ 1.0 ],
 									"originaltempo" : [ 120.0 ],
-									"speed" : [ 1.0 ],
-									"mode" : [ "basic" ],
-									"basictuning" : [ 440 ],
-									"originallengthms" : [ 0.0 ],
-									"followglobaltempo" : [ 0 ],
+									"formantcorrection" : [ 0 ],
 									"pitchcorrection" : [ 0 ],
-									"play" : [ 0 ],
+									"pitchshift" : [ 1.0 ],
+									"quality" : [ "basic" ],
 									"timestretch" : [ 0 ],
-									"slurtime" : [ 0.0 ]
+									"play" : [ 0 ],
+									"formant" : [ 1.0 ],
+									"basictuning" : [ 440 ],
+									"originallength" : [ 0.0, "ticks" ],
+									"originallengthms" : [ 0.0 ],
+									"speed" : [ 1.0 ],
+									"slurtime" : [ 0.0 ],
+									"mode" : [ "basic" ],
+									"followglobaltempo" : [ 0 ]
 								}
 
 							}
@@ -438,21 +461,21 @@
 								"filekind" : "audiofile",
 								"loop" : 1,
 								"content_state" : 								{
-									"formantcorrection" : [ 0 ],
-									"quality" : [ "basic" ],
-									"formant" : [ 1.0 ],
-									"originallength" : [ 0.0, "ticks" ],
-									"pitchshift" : [ 1.0 ],
 									"originaltempo" : [ 120.0 ],
-									"speed" : [ 1.0 ],
-									"mode" : [ "basic" ],
-									"basictuning" : [ 440 ],
-									"originallengthms" : [ 0.0 ],
-									"followglobaltempo" : [ 0 ],
+									"formantcorrection" : [ 0 ],
 									"pitchcorrection" : [ 0 ],
-									"play" : [ 0 ],
+									"pitchshift" : [ 1.0 ],
+									"quality" : [ "basic" ],
 									"timestretch" : [ 0 ],
-									"slurtime" : [ 0.0 ]
+									"play" : [ 0 ],
+									"formant" : [ 1.0 ],
+									"basictuning" : [ 440 ],
+									"originallength" : [ 0.0, "ticks" ],
+									"originallengthms" : [ 0.0 ],
+									"speed" : [ 1.0 ],
+									"slurtime" : [ 0.0 ],
+									"mode" : [ "basic" ],
+									"followglobaltempo" : [ 0 ]
 								}
 
 							}
@@ -513,21 +536,21 @@
 								"filekind" : "audiofile",
 								"loop" : 1,
 								"content_state" : 								{
-									"formantcorrection" : [ 0 ],
-									"quality" : [ "basic" ],
-									"formant" : [ 1.0 ],
-									"originallength" : [ 0.0, "ticks" ],
-									"pitchshift" : [ 1.0 ],
 									"originaltempo" : [ 120.0 ],
-									"speed" : [ 1.0 ],
-									"mode" : [ "basic" ],
-									"basictuning" : [ 440 ],
-									"originallengthms" : [ 0.0 ],
-									"followglobaltempo" : [ 0 ],
+									"formantcorrection" : [ 0 ],
 									"pitchcorrection" : [ 0 ],
-									"play" : [ 0 ],
+									"pitchshift" : [ 1.0 ],
+									"quality" : [ "basic" ],
 									"timestretch" : [ 0 ],
-									"slurtime" : [ 0.0 ]
+									"play" : [ 0 ],
+									"formant" : [ 1.0 ],
+									"basictuning" : [ 440 ],
+									"originallength" : [ 0.0, "ticks" ],
+									"originallengthms" : [ 0.0 ],
+									"speed" : [ 1.0 ],
+									"slurtime" : [ 0.0 ],
+									"mode" : [ "basic" ],
+									"followglobaltempo" : [ 0 ]
 								}
 
 							}
@@ -552,7 +575,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 194.666626, 421.0, 150.0, 22.0 ],
+					"patching_rect" : [ 194.666626, 409.0, 150.0, 22.0 ],
 					"style" : ""
 				}
 
@@ -565,7 +588,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 184.666626, 391.0, 150.0, 22.0 ],
+					"patching_rect" : [ 184.666626, 379.0, 150.0, 22.0 ],
 					"style" : ""
 				}
 
@@ -577,7 +600,7 @@
 					"maxclass" : "scope~",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 40.666626, 474.5, 208.0, 131.0 ],
+					"patching_rect" : [ 69.666626, 457.0, 208.0, 131.0 ],
 					"style" : ""
 				}
 
@@ -674,7 +697,7 @@
 					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 14.666626, 250.0, 368.0, 386.0 ],
+					"patching_rect" : [ 14.666626, 250.0, 368.0, 427.0 ],
 					"proportion" : 0.39,
 					"style" : ""
 				}
@@ -841,9 +864,29 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-37", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-33", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-33", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"order" : 1,
+					"source" : [ "obj-35", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-5", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"order" : 0,
 					"source" : [ "obj-35", 0 ]
 				}
 
@@ -962,30 +1005,30 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-35::obj-13" : [ "flonum", "flonum", 0 ],
-			"obj-35::obj-16" : [ "flonum[1]", "flonum[1]", 0 ],
-			"obj-68::obj-19::obj-13" : [ "flonum[23]", "flonum", 0 ],
 			"obj-1::obj-8::obj-19::obj-16" : [ "flonum[16]", "flonum[1]", 0 ],
-			"obj-1::obj-14::obj-19::obj-16" : [ "flonum[12]", "flonum[1]", 0 ],
-			"obj-1::obj-20::obj-19::obj-16" : [ "flonum[6]", "flonum[1]", 0 ],
-			"obj-1::obj-16::obj-19::obj-16" : [ "flonum[2]", "flonum[1]", 0 ],
-			"obj-1::obj-2::obj-19::obj-13" : [ "flonum[21]", "flonum", 0 ],
-			"obj-1::obj-8::obj-19::obj-13" : [ "flonum[17]", "flonum", 0 ],
 			"obj-1::obj-24::obj-19::obj-13" : [ "flonum[11]", "flonum", 0 ],
 			"obj-1::obj-20::obj-19::obj-13" : [ "flonum[7]", "flonum", 0 ],
-			"obj-1::obj-2::obj-19::obj-16" : [ "flonum[20]", "flonum[1]", 0 ],
-			"obj-1::obj-10::obj-19::obj-13" : [ "flonum[15]", "flonum", 0 ],
+			"obj-1::obj-6::obj-19::obj-13" : [ "flonum[19]", "flonum", 0 ],
+			"obj-1::obj-10::obj-19::obj-16" : [ "flonum[14]", "flonum[1]", 0 ],
 			"obj-1::obj-24::obj-19::obj-16" : [ "flonum[10]", "flonum[1]", 0 ],
 			"obj-1::obj-18::obj-19::obj-13" : [ "flonum[5]", "flonum", 0 ],
+			"obj-35::obj-16" : [ "flonum[1]", "flonum[1]", 0 ],
+			"obj-68::obj-19::obj-16" : [ "flonum[22]", "flonum[1]", 0 ],
 			"obj-1::obj-6::obj-19::obj-16" : [ "flonum[18]", "flonum[1]", 0 ],
-			"obj-1::obj-10::obj-19::obj-16" : [ "flonum[14]", "flonum[1]", 0 ],
+			"obj-1::obj-10::obj-19::obj-13" : [ "flonum[15]", "flonum", 0 ],
+			"obj-35::obj-13" : [ "flonum", "flonum", 0 ],
 			"obj-1::obj-22::obj-19::obj-16" : [ "flonum[8]", "flonum[1]", 0 ],
 			"obj-1::obj-18::obj-19::obj-16" : [ "flonum[4]", "flonum[1]", 0 ],
-			"obj-1::obj-6::obj-19::obj-13" : [ "flonum[19]", "flonum", 0 ],
-			"obj-68::obj-19::obj-16" : [ "flonum[22]", "flonum[1]", 0 ],
+			"obj-68::obj-19::obj-13" : [ "flonum[23]", "flonum", 0 ],
+			"obj-1::obj-8::obj-19::obj-13" : [ "flonum[17]", "flonum", 0 ],
 			"obj-1::obj-14::obj-19::obj-13" : [ "flonum[13]", "flonum", 0 ],
 			"obj-1::obj-22::obj-19::obj-13" : [ "flonum[9]", "flonum", 0 ],
-			"obj-1::obj-16::obj-19::obj-13" : [ "flonum[3]", "flonum", 0 ]
+			"obj-1::obj-16::obj-19::obj-16" : [ "flonum[2]", "flonum[1]", 0 ],
+			"obj-1::obj-2::obj-19::obj-16" : [ "flonum[20]", "flonum[1]", 0 ],
+			"obj-1::obj-14::obj-19::obj-16" : [ "flonum[12]", "flonum[1]", 0 ],
+			"obj-1::obj-20::obj-19::obj-16" : [ "flonum[6]", "flonum[1]", 0 ],
+			"obj-1::obj-16::obj-19::obj-13" : [ "flonum[3]", "flonum", 0 ],
+			"obj-1::obj-2::obj-19::obj-13" : [ "flonum[21]", "flonum", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
@@ -1032,6 +1075,12 @@
 			}
 , 			{
 				"name" : "lecteurAudio.maxpat",
+				"bootpath" : "~/Documents/GitKraken/S3-PROJET/ressourcesMAX/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "detectionPic.maxpat",
 				"bootpath" : "~/Documents/GitKraken/S3-PROJET/ressourcesMAX/patchers",
 				"type" : "JSON",
 				"implicit" : 1
@@ -1140,8 +1189,8 @@
 , 			{
 				"name" : "newobjYellow-1",
 				"default" : 				{
-					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
-					"fontsize" : [ 12.059008 ]
+					"fontsize" : [ 12.059008 ],
+					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
 				}
 ,
 				"parentstyle" : "",

@@ -2,8 +2,8 @@
 	"name" : "ressourcesMAX",
 	"version" : 1,
 	"creationdate" : -707384100,
-	"modificationdate" : -705075958,
-	"viewrect" : [ 9.0, 118.0, 321.0, 622.0 ],
+	"modificationdate" : -703893833,
+	"viewrect" : [ 437.0, 221.0, 321.0, 622.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
@@ -11,6 +11,11 @@
 	"contents" : 	{
 		"patchers" : 		{
 			"assemblage.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"detectionPic.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
