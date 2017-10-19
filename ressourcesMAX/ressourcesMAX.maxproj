@@ -1,9 +1,9 @@
 {
 	"name" : "ressourcesMAX",
 	"version" : 1,
-	"creationdate" : -707384100,
-	"modificationdate" : -703892913,
-	"viewrect" : [ 27.0, 70.0, 321.0, 622.0 ],
+	"creationdate" : -707384161,
+	"modificationdate" : 3591245609,
+	"viewrect" : [ 16.0, 221.0, 321.0, 622.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
@@ -37,6 +37,11 @@
 			}
 ,
 			"filtreConvolution.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"compositingPiP.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -113,6 +118,11 @@
 			}
 ,
 			"analyseSpectrale_10b.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"detectionManuelleAudio.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -199,11 +209,6 @@
 			}
 ,
 			"addition.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"detectionManuelleAudio.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
