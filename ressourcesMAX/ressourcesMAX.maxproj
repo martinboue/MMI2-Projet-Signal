@@ -1,9 +1,9 @@
 {
 	"name" : "ressourcesMAX",
 	"version" : 1,
-	"creationdate" : -707384161,
-	"modificationdate" : 3591245609,
-	"viewrect" : [ 16.0, 221.0, 321.0, 622.0 ],
+	"creationdate" : -707384282,
+	"modificationdate" : 3591352786,
+	"viewrect" : [ 16.0, 100.0, 321.0, 622.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
@@ -11,6 +11,11 @@
 	"contents" : 	{
 		"patchers" : 		{
 			"assemblage.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"selectionZoneVideo.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -37,11 +42,6 @@
 			}
 ,
 			"filtreConvolution.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"compositingPiP.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -87,6 +87,11 @@
 			}
 ,
 			"dessin.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"compositingPiP.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
