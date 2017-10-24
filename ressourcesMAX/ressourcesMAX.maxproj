@@ -1,8 +1,8 @@
 {
 	"name" : "ressourcesMAX",
 	"version" : 1,
-	"creationdate" : -707384282,
-	"modificationdate" : 3591352786,
+	"creationdate" : -707384403,
+	"modificationdate" : 3591673606,
 	"viewrect" : [ 16.0, 100.0, 321.0, 622.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -214,6 +214,11 @@
 			}
 ,
 			"addition.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"compositing2.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
