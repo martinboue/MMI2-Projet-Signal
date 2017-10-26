@@ -122,7 +122,7 @@
 					"numinlets" : 4,
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
-					"patching_rect" : [ 915.177124, 339.0, 125.0, 22.0 ],
+					"patching_rect" : [ 917.833252, 318.0, 125.0, 22.0 ],
 					"style" : "",
 					"text" : "minifyCentrify.maxpat"
 				}
