@@ -1,8 +1,8 @@
 {
 	"name" : "ressourcesMAX",
 	"version" : 1,
-	"creationdate" : -707384403,
-	"modificationdate" : 3591673606,
+	"creationdate" : -707384524,
+	"modificationdate" : 3591854637,
 	"viewrect" : [ 16.0, 100.0, 321.0, 622.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -96,6 +96,16 @@
 				"local" : 1
 			}
 ,
+			"negatif.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"compositing2.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
 			"mainAnalyseAudio.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1,
@@ -163,11 +173,6 @@
 				"local" : 1
 			}
 ,
-			"negatif.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
 			"mix.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
@@ -218,7 +223,7 @@
 				"local" : 1
 			}
 ,
-			"compositing2.maxpat" : 			{
+			"minifyCentrify.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
