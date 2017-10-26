@@ -1,8 +1,8 @@
 {
 	"name" : "ressourcesMAX",
 	"version" : 1,
-	"creationdate" : -707384524,
-	"modificationdate" : 3591854637,
+	"creationdate" : -707384645,
+	"modificationdate" : 3591882156,
 	"viewrect" : [ 16.0, 100.0, 321.0, 622.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -208,6 +208,11 @@
 				"local" : 1
 			}
 ,
+			"minifyCentrify.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
 			"recadrageImage.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
@@ -223,7 +228,7 @@
 				"local" : 1
 			}
 ,
-			"minifyCentrify.maxpat" : 			{
+			"minifyCentrify2.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}

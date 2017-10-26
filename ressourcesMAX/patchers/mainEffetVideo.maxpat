@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 34.0, 79.0, 1350.0, 711.0 ],
+		"rect" : [ 34.0, 79.0, 1279.0, 711.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -38,78 +38,80 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
-					"id" : "obj-109",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 1041.0, 274.0, 87.0, 22.0 ],
+					"id" : "obj-125",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 874.322876, 346.0, 179.0, 20.0 ],
+					"presentation_rect" : [ 875.645813, 328.0, 0.0, 0.0 ],
 					"style" : "",
-					"text" : "200 71 256 91"
+					"text" : "réduire et centrer une vidéo"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-103",
+					"id" : "obj-123",
 					"maxclass" : "toggle",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 988.499939, 265.0, 24.0, 24.0 ],
+					"patching_rect" : [ 972.499939, 384.0, 24.0, 24.0 ],
 					"style" : ""
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-102",
+					"id" : "obj-120",
 					"maxclass" : "jit.pwindow",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 897.177124, 498.0, 187.0, 129.0 ]
+					"patching_rect" : [ 906.999939, 529.0, 187.0, 129.0 ],
+					"presentation_rect" : [ 1101.177124, 498.0, 0.0, 0.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-95",
-					"maxclass" : "toggle",
-					"numinlets" : 1,
+					"id" : "obj-119",
+					"maxclass" : "newobj",
+					"numinlets" : 4,
 					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 954.0, 265.0, 24.0, 24.0 ],
-					"style" : ""
+					"outlettype" : [ "jit_matrix" ],
+					"patching_rect" : [ 906.999939, 430.0, 118.0, 22.0 ],
+					"style" : "",
+					"text" : "lecteurVideo.maxpat"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"fontface" : 0,
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-84",
-					"maxclass" : "jit.fpsgui",
-					"mode" : 3,
+					"format" : 6,
+					"id" : "obj-113",
+					"maxclass" : "flonum",
+					"maximum" : 1.0,
+					"minimum" : 0.0,
 					"numinlets" : 1,
 					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 1015.177124, 428.0, 80.0, 35.0 ],
+					"outlettype" : [ "", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 1032.166748, 430.0, 50.0, 22.0 ],
 					"style" : ""
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-72",
+					"id" : "obj-104",
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 897.177124, 218.0, 56.0, 22.0 ],
+					"patching_rect" : [ 902.999939, 386.0, 56.0, 22.0 ],
+					"presentation_rect" : [ 1082.177124, 187.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "alex.png"
 				}
@@ -117,14 +119,14 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-19",
+					"id" : "obj-111",
 					"maxclass" : "newobj",
-					"numinlets" : 4,
+					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
-					"patching_rect" : [ 917.833252, 318.0, 125.0, 22.0 ],
+					"patching_rect" : [ 906.999939, 486.0, 133.0, 22.0 ],
 					"style" : "",
-					"text" : "minifyCentrify.maxpat"
+					"text" : "minifyCentrify2.maxpat"
 				}
 
 			}
@@ -239,31 +241,36 @@
 									"outputmode" : [ 1 ],
 									"out_name" : [ "u964000392" ],
 									"dim" : [ 1, 1 ],
-									"srcrect" : [ 0, 0, 1, 1 ],
-									"position" : [ 0.0 ],
-									"framereport" : [ 0 ],
-									"time_secs" : [ 0.0 ],
-									"loopreport" : [ 0 ],
-									"vol" : [ 1.0 ],
-									"adapt" : [ 1 ],
 									"unique" : [ 0 ],
-									"texture_name" : [ "u192000390" ],
-									"colormode" : [ "argb" ],
-									"loopend" : [ 0 ],
-									"engine" : [ "avf" ],
 									"drawto" : [ "" ],
-									"usedstrect" : [ 0 ],
-									"output_texture" : [ 0 ],
-									"loopstart" : [ 0 ],
+									"framereport" : [ 0 ],
+									"adapt" : [ 1 ],
+									"engine" : [ "avf" ],
+									"dstrect" : [ 0, 0, 1, 1 ],
+									"timescale" : [ 600 ],
+									"texture_name" : [ "u192000390" ],
 									"interp" : [ 0 ],
 									"usesrcrect" : [ 0 ],
-									"rate" : [ 1.0 ],
+									"framecount" : [ 0 ],
+									"looppoints" : [ 0, 0 ],
+									"duration" : [ 0 ],
+									"cache_size" : [ 0.1 ],
+									"fps" : [ 0.0 ],
+									"time_secs" : [ 0.0 ],
+									"usedstrect" : [ 0 ],
 									"time" : [ 0 ],
-									"dstrect" : [ 0, 0, 1, 1 ],
 									"autostart" : [ 1 ],
+									"loopend" : [ 0 ],
 									"moviefile" : [ "" ],
+									"srcrect" : [ 0, 0, 1, 1 ],
+									"colormode" : [ "argb" ],
+									"rate" : [ 1.0 ],
+									"position" : [ 0.0 ],
+									"loopreport" : [ 0 ],
+									"vol" : [ 1.0 ],
+									"output_texture" : [ 0 ],
 									"automatic" : [ 0 ],
-									"looppoints" : [ 0, 0 ]
+									"loopstart" : [ 0 ]
 								}
 
 							}
@@ -755,31 +762,36 @@
 									"outputmode" : [ 1 ],
 									"out_name" : [ "u964000392" ],
 									"dim" : [ 1, 1 ],
-									"srcrect" : [ 0, 0, 1, 1 ],
-									"position" : [ 0.0 ],
-									"framereport" : [ 0 ],
-									"time_secs" : [ 0.0 ],
-									"loopreport" : [ 0 ],
-									"vol" : [ 1.0 ],
-									"adapt" : [ 1 ],
 									"unique" : [ 0 ],
-									"texture_name" : [ "u192000390" ],
-									"colormode" : [ "argb" ],
-									"loopend" : [ 0 ],
-									"engine" : [ "avf" ],
 									"drawto" : [ "" ],
-									"usedstrect" : [ 0 ],
-									"output_texture" : [ 0 ],
-									"loopstart" : [ 0 ],
+									"framereport" : [ 0 ],
+									"adapt" : [ 1 ],
+									"engine" : [ "avf" ],
+									"dstrect" : [ 0, 0, 1, 1 ],
+									"timescale" : [ 600 ],
+									"texture_name" : [ "u192000390" ],
 									"interp" : [ 0 ],
 									"usesrcrect" : [ 0 ],
-									"rate" : [ 1.0 ],
+									"framecount" : [ 0 ],
+									"looppoints" : [ 0, 0 ],
+									"duration" : [ 0 ],
+									"cache_size" : [ 0.1 ],
+									"fps" : [ 0.0 ],
+									"time_secs" : [ 0.0 ],
+									"usedstrect" : [ 0 ],
 									"time" : [ 0 ],
-									"dstrect" : [ 0, 0, 1, 1 ],
 									"autostart" : [ 1 ],
+									"loopend" : [ 0 ],
 									"moviefile" : [ "" ],
+									"srcrect" : [ 0, 0, 1, 1 ],
+									"colormode" : [ "argb" ],
+									"rate" : [ 1.0 ],
+									"position" : [ 0.0 ],
+									"loopreport" : [ 0 ],
+									"vol" : [ 1.0 ],
+									"output_texture" : [ 0 ],
 									"automatic" : [ 0 ],
-									"looppoints" : [ 0, 0 ]
+									"loopstart" : [ 0 ]
 								}
 
 							}
@@ -902,31 +914,36 @@
 									"outputmode" : [ 1 ],
 									"out_name" : [ "u964000392" ],
 									"dim" : [ 1, 1 ],
-									"srcrect" : [ 0, 0, 1, 1 ],
-									"position" : [ 0.0 ],
-									"framereport" : [ 0 ],
-									"time_secs" : [ 0.0 ],
-									"loopreport" : [ 0 ],
-									"vol" : [ 1.0 ],
-									"adapt" : [ 1 ],
 									"unique" : [ 0 ],
-									"texture_name" : [ "u192000390" ],
-									"colormode" : [ "argb" ],
-									"loopend" : [ 0 ],
-									"engine" : [ "avf" ],
 									"drawto" : [ "" ],
-									"usedstrect" : [ 0 ],
-									"output_texture" : [ 0 ],
-									"loopstart" : [ 0 ],
+									"framereport" : [ 0 ],
+									"adapt" : [ 1 ],
+									"engine" : [ "avf" ],
+									"dstrect" : [ 0, 0, 1, 1 ],
+									"timescale" : [ 600 ],
+									"texture_name" : [ "u192000390" ],
 									"interp" : [ 0 ],
 									"usesrcrect" : [ 0 ],
-									"rate" : [ 1.0 ],
+									"framecount" : [ 0 ],
+									"looppoints" : [ 0, 0 ],
+									"duration" : [ 0 ],
+									"cache_size" : [ 0.1 ],
+									"fps" : [ 0.0 ],
+									"time_secs" : [ 0.0 ],
+									"usedstrect" : [ 0 ],
 									"time" : [ 0 ],
-									"dstrect" : [ 0, 0, 1, 1 ],
 									"autostart" : [ 1 ],
+									"loopend" : [ 0 ],
 									"moviefile" : [ "" ],
+									"srcrect" : [ 0, 0, 1, 1 ],
+									"colormode" : [ "argb" ],
+									"rate" : [ 1.0 ],
+									"position" : [ 0.0 ],
+									"loopreport" : [ 0 ],
+									"vol" : [ 1.0 ],
+									"output_texture" : [ 0 ],
 									"automatic" : [ 0 ],
-									"looppoints" : [ 0, 0 ]
+									"loopstart" : [ 0 ]
 								}
 
 							}
@@ -1031,31 +1048,36 @@
 									"outputmode" : [ 1 ],
 									"out_name" : [ "u964000392" ],
 									"dim" : [ 1, 1 ],
-									"srcrect" : [ 0, 0, 1, 1 ],
-									"position" : [ 0.0 ],
-									"framereport" : [ 0 ],
-									"time_secs" : [ 0.0 ],
-									"loopreport" : [ 0 ],
-									"vol" : [ 1.0 ],
-									"adapt" : [ 1 ],
 									"unique" : [ 0 ],
-									"texture_name" : [ "u192000390" ],
-									"colormode" : [ "argb" ],
-									"loopend" : [ 0 ],
-									"engine" : [ "avf" ],
 									"drawto" : [ "" ],
-									"usedstrect" : [ 0 ],
-									"output_texture" : [ 0 ],
-									"loopstart" : [ 0 ],
+									"framereport" : [ 0 ],
+									"adapt" : [ 1 ],
+									"engine" : [ "avf" ],
+									"dstrect" : [ 0, 0, 1, 1 ],
+									"timescale" : [ 600 ],
+									"texture_name" : [ "u192000390" ],
 									"interp" : [ 0 ],
 									"usesrcrect" : [ 0 ],
-									"rate" : [ 1.0 ],
+									"framecount" : [ 0 ],
+									"looppoints" : [ 0, 0 ],
+									"duration" : [ 0 ],
+									"cache_size" : [ 0.1 ],
+									"fps" : [ 0.0 ],
+									"time_secs" : [ 0.0 ],
+									"usedstrect" : [ 0 ],
 									"time" : [ 0 ],
-									"dstrect" : [ 0, 0, 1, 1 ],
 									"autostart" : [ 1 ],
+									"loopend" : [ 0 ],
 									"moviefile" : [ "" ],
+									"srcrect" : [ 0, 0, 1, 1 ],
+									"colormode" : [ "argb" ],
+									"rate" : [ 1.0 ],
+									"position" : [ 0.0 ],
+									"loopreport" : [ 0 ],
+									"vol" : [ 1.0 ],
+									"output_texture" : [ 0 ],
 									"automatic" : [ 0 ],
-									"looppoints" : [ 0, 0 ]
+									"loopstart" : [ 0 ]
 								}
 
 							}
@@ -1174,31 +1196,36 @@
 									"outputmode" : [ 1 ],
 									"out_name" : [ "u964000392" ],
 									"dim" : [ 1, 1 ],
-									"srcrect" : [ 0, 0, 1, 1 ],
-									"position" : [ 0.0 ],
-									"framereport" : [ 0 ],
-									"time_secs" : [ 0.0 ],
-									"loopreport" : [ 0 ],
-									"vol" : [ 1.0 ],
-									"adapt" : [ 1 ],
 									"unique" : [ 0 ],
-									"texture_name" : [ "u192000390" ],
-									"colormode" : [ "argb" ],
-									"loopend" : [ 0 ],
-									"engine" : [ "avf" ],
 									"drawto" : [ "" ],
-									"usedstrect" : [ 0 ],
-									"output_texture" : [ 0 ],
-									"loopstart" : [ 0 ],
+									"framereport" : [ 0 ],
+									"adapt" : [ 1 ],
+									"engine" : [ "avf" ],
+									"dstrect" : [ 0, 0, 1, 1 ],
+									"timescale" : [ 600 ],
+									"texture_name" : [ "u192000390" ],
 									"interp" : [ 0 ],
 									"usesrcrect" : [ 0 ],
-									"rate" : [ 1.0 ],
+									"framecount" : [ 0 ],
+									"looppoints" : [ 0, 0 ],
+									"duration" : [ 0 ],
+									"cache_size" : [ 0.1 ],
+									"fps" : [ 0.0 ],
+									"time_secs" : [ 0.0 ],
+									"usedstrect" : [ 0 ],
 									"time" : [ 0 ],
-									"dstrect" : [ 0, 0, 1, 1 ],
 									"autostart" : [ 1 ],
+									"loopend" : [ 0 ],
 									"moviefile" : [ "" ],
+									"srcrect" : [ 0, 0, 1, 1 ],
+									"colormode" : [ "argb" ],
+									"rate" : [ 1.0 ],
+									"position" : [ 0.0 ],
+									"loopreport" : [ 0 ],
+									"vol" : [ 1.0 ],
+									"output_texture" : [ 0 ],
 									"automatic" : [ 0 ],
-									"looppoints" : [ 0, 0 ]
+									"loopstart" : [ 0 ]
 								}
 
 							}
@@ -1404,31 +1431,36 @@
 									"outputmode" : [ 1 ],
 									"out_name" : [ "u964000392" ],
 									"dim" : [ 1, 1 ],
-									"srcrect" : [ 0, 0, 1, 1 ],
-									"position" : [ 0.0 ],
-									"framereport" : [ 0 ],
-									"time_secs" : [ 0.0 ],
-									"loopreport" : [ 0 ],
-									"vol" : [ 1.0 ],
-									"adapt" : [ 1 ],
 									"unique" : [ 0 ],
-									"texture_name" : [ "u192000390" ],
-									"colormode" : [ "argb" ],
-									"loopend" : [ 0 ],
-									"engine" : [ "avf" ],
 									"drawto" : [ "" ],
-									"usedstrect" : [ 0 ],
-									"output_texture" : [ 0 ],
-									"loopstart" : [ 0 ],
+									"framereport" : [ 0 ],
+									"adapt" : [ 1 ],
+									"engine" : [ "avf" ],
+									"dstrect" : [ 0, 0, 1, 1 ],
+									"timescale" : [ 600 ],
+									"texture_name" : [ "u192000390" ],
 									"interp" : [ 0 ],
 									"usesrcrect" : [ 0 ],
-									"rate" : [ 1.0 ],
+									"framecount" : [ 0 ],
+									"looppoints" : [ 0, 0 ],
+									"duration" : [ 0 ],
+									"cache_size" : [ 0.1 ],
+									"fps" : [ 0.0 ],
+									"time_secs" : [ 0.0 ],
+									"usedstrect" : [ 0 ],
 									"time" : [ 0 ],
-									"dstrect" : [ 0, 0, 1, 1 ],
 									"autostart" : [ 1 ],
+									"loopend" : [ 0 ],
 									"moviefile" : [ "" ],
+									"srcrect" : [ 0, 0, 1, 1 ],
+									"colormode" : [ "argb" ],
+									"rate" : [ 1.0 ],
+									"position" : [ 0.0 ],
+									"loopreport" : [ 0 ],
+									"vol" : [ 1.0 ],
+									"output_texture" : [ 0 ],
 									"automatic" : [ 0 ],
-									"looppoints" : [ 0, 0 ]
+									"loopstart" : [ 0 ]
 								}
 
 							}
@@ -1456,31 +1488,36 @@
 									"outputmode" : [ 1 ],
 									"out_name" : [ "u964000392" ],
 									"dim" : [ 1, 1 ],
-									"srcrect" : [ 0, 0, 1, 1 ],
-									"position" : [ 0.0 ],
-									"framereport" : [ 0 ],
-									"time_secs" : [ 0.0 ],
-									"loopreport" : [ 0 ],
-									"vol" : [ 1.0 ],
-									"adapt" : [ 1 ],
 									"unique" : [ 0 ],
-									"texture_name" : [ "u192000390" ],
-									"colormode" : [ "argb" ],
-									"loopend" : [ 0 ],
-									"engine" : [ "avf" ],
 									"drawto" : [ "" ],
-									"usedstrect" : [ 0 ],
-									"output_texture" : [ 0 ],
-									"loopstart" : [ 0 ],
+									"framereport" : [ 0 ],
+									"adapt" : [ 1 ],
+									"engine" : [ "avf" ],
+									"dstrect" : [ 0, 0, 1, 1 ],
+									"timescale" : [ 600 ],
+									"texture_name" : [ "u192000390" ],
 									"interp" : [ 0 ],
 									"usesrcrect" : [ 0 ],
-									"rate" : [ 1.0 ],
+									"framecount" : [ 0 ],
+									"looppoints" : [ 0, 0 ],
+									"duration" : [ 0 ],
+									"cache_size" : [ 0.1 ],
+									"fps" : [ 0.0 ],
+									"time_secs" : [ 0.0 ],
+									"usedstrect" : [ 0 ],
 									"time" : [ 0 ],
-									"dstrect" : [ 0, 0, 1, 1 ],
 									"autostart" : [ 1 ],
+									"loopend" : [ 0 ],
 									"moviefile" : [ "" ],
+									"srcrect" : [ 0, 0, 1, 1 ],
+									"colormode" : [ "argb" ],
+									"rate" : [ 1.0 ],
+									"position" : [ 0.0 ],
+									"loopreport" : [ 0 ],
+									"vol" : [ 1.0 ],
+									"output_texture" : [ 0 ],
 									"automatic" : [ 0 ],
-									"looppoints" : [ 0, 0 ]
+									"loopstart" : [ 0 ]
 								}
 
 							}
@@ -1508,31 +1545,36 @@
 									"outputmode" : [ 1 ],
 									"out_name" : [ "u964000392" ],
 									"dim" : [ 1, 1 ],
-									"srcrect" : [ 0, 0, 1, 1 ],
-									"position" : [ 0.0 ],
-									"framereport" : [ 0 ],
-									"time_secs" : [ 0.0 ],
-									"loopreport" : [ 0 ],
-									"vol" : [ 1.0 ],
-									"adapt" : [ 1 ],
 									"unique" : [ 0 ],
-									"texture_name" : [ "u192000390" ],
-									"colormode" : [ "argb" ],
-									"loopend" : [ 0 ],
-									"engine" : [ "avf" ],
 									"drawto" : [ "" ],
-									"usedstrect" : [ 0 ],
-									"output_texture" : [ 0 ],
-									"loopstart" : [ 0 ],
+									"framereport" : [ 0 ],
+									"adapt" : [ 1 ],
+									"engine" : [ "avf" ],
+									"dstrect" : [ 0, 0, 1, 1 ],
+									"timescale" : [ 600 ],
+									"texture_name" : [ "u192000390" ],
 									"interp" : [ 0 ],
 									"usesrcrect" : [ 0 ],
-									"rate" : [ 1.0 ],
+									"framecount" : [ 0 ],
+									"looppoints" : [ 0, 0 ],
+									"duration" : [ 0 ],
+									"cache_size" : [ 0.1 ],
+									"fps" : [ 0.0 ],
+									"time_secs" : [ 0.0 ],
+									"usedstrect" : [ 0 ],
 									"time" : [ 0 ],
-									"dstrect" : [ 0, 0, 1, 1 ],
 									"autostart" : [ 1 ],
+									"loopend" : [ 0 ],
 									"moviefile" : [ "" ],
+									"srcrect" : [ 0, 0, 1, 1 ],
+									"colormode" : [ "argb" ],
+									"rate" : [ 1.0 ],
+									"position" : [ 0.0 ],
+									"loopreport" : [ 0 ],
+									"vol" : [ 1.0 ],
+									"output_texture" : [ 0 ],
 									"automatic" : [ 0 ],
-									"looppoints" : [ 0, 0 ]
+									"loopstart" : [ 0 ]
 								}
 
 							}
@@ -1560,31 +1602,36 @@
 									"outputmode" : [ 1 ],
 									"out_name" : [ "u964000392" ],
 									"dim" : [ 1, 1 ],
-									"srcrect" : [ 0, 0, 1, 1 ],
-									"position" : [ 0.0 ],
-									"framereport" : [ 0 ],
-									"time_secs" : [ 0.0 ],
-									"loopreport" : [ 0 ],
-									"vol" : [ 1.0 ],
-									"adapt" : [ 1 ],
 									"unique" : [ 0 ],
-									"texture_name" : [ "u192000390" ],
-									"colormode" : [ "argb" ],
-									"loopend" : [ 0 ],
-									"engine" : [ "avf" ],
 									"drawto" : [ "" ],
-									"usedstrect" : [ 0 ],
-									"output_texture" : [ 0 ],
-									"loopstart" : [ 0 ],
+									"framereport" : [ 0 ],
+									"adapt" : [ 1 ],
+									"engine" : [ "avf" ],
+									"dstrect" : [ 0, 0, 1, 1 ],
+									"timescale" : [ 600 ],
+									"texture_name" : [ "u192000390" ],
 									"interp" : [ 0 ],
 									"usesrcrect" : [ 0 ],
-									"rate" : [ 1.0 ],
+									"framecount" : [ 0 ],
+									"looppoints" : [ 0, 0 ],
+									"duration" : [ 0 ],
+									"cache_size" : [ 0.1 ],
+									"fps" : [ 0.0 ],
+									"time_secs" : [ 0.0 ],
+									"usedstrect" : [ 0 ],
 									"time" : [ 0 ],
-									"dstrect" : [ 0, 0, 1, 1 ],
 									"autostart" : [ 1 ],
+									"loopend" : [ 0 ],
 									"moviefile" : [ "" ],
+									"srcrect" : [ 0, 0, 1, 1 ],
+									"colormode" : [ "argb" ],
+									"rate" : [ 1.0 ],
+									"position" : [ 0.0 ],
+									"loopreport" : [ 0 ],
+									"vol" : [ 1.0 ],
+									"output_texture" : [ 0 ],
 									"automatic" : [ 0 ],
-									"looppoints" : [ 0, 0 ]
+									"loopstart" : [ 0 ]
 								}
 
 							}
@@ -1675,31 +1722,36 @@
 									"outputmode" : [ 1 ],
 									"out_name" : [ "u964000392" ],
 									"dim" : [ 1, 1 ],
-									"srcrect" : [ 0, 0, 1, 1 ],
-									"position" : [ 0.0 ],
-									"framereport" : [ 0 ],
-									"time_secs" : [ 0.0 ],
-									"loopreport" : [ 0 ],
-									"vol" : [ 1.0 ],
-									"adapt" : [ 1 ],
 									"unique" : [ 0 ],
-									"texture_name" : [ "u192000390" ],
-									"colormode" : [ "argb" ],
-									"loopend" : [ 0 ],
-									"engine" : [ "avf" ],
 									"drawto" : [ "" ],
-									"usedstrect" : [ 0 ],
-									"output_texture" : [ 0 ],
-									"loopstart" : [ 0 ],
+									"framereport" : [ 0 ],
+									"adapt" : [ 1 ],
+									"engine" : [ "avf" ],
+									"dstrect" : [ 0, 0, 1, 1 ],
+									"timescale" : [ 600 ],
+									"texture_name" : [ "u192000390" ],
 									"interp" : [ 0 ],
 									"usesrcrect" : [ 0 ],
-									"rate" : [ 1.0 ],
+									"framecount" : [ 0 ],
+									"looppoints" : [ 0, 0 ],
+									"duration" : [ 0 ],
+									"cache_size" : [ 0.1 ],
+									"fps" : [ 0.0 ],
+									"time_secs" : [ 0.0 ],
+									"usedstrect" : [ 0 ],
 									"time" : [ 0 ],
-									"dstrect" : [ 0, 0, 1, 1 ],
 									"autostart" : [ 1 ],
+									"loopend" : [ 0 ],
 									"moviefile" : [ "" ],
+									"srcrect" : [ 0, 0, 1, 1 ],
+									"colormode" : [ "argb" ],
+									"rate" : [ 1.0 ],
+									"position" : [ 0.0 ],
+									"loopreport" : [ 0 ],
+									"vol" : [ 1.0 ],
+									"output_texture" : [ 0 ],
 									"automatic" : [ 0 ],
-									"looppoints" : [ 0, 0 ]
+									"loopstart" : [ 0 ]
 								}
 
 							}
@@ -1727,31 +1779,36 @@
 									"outputmode" : [ 1 ],
 									"out_name" : [ "u964000392" ],
 									"dim" : [ 1, 1 ],
-									"srcrect" : [ 0, 0, 1, 1 ],
-									"position" : [ 0.0 ],
-									"framereport" : [ 0 ],
-									"time_secs" : [ 0.0 ],
-									"loopreport" : [ 0 ],
-									"vol" : [ 1.0 ],
-									"adapt" : [ 1 ],
 									"unique" : [ 0 ],
-									"texture_name" : [ "u192000390" ],
-									"colormode" : [ "argb" ],
-									"loopend" : [ 0 ],
-									"engine" : [ "avf" ],
 									"drawto" : [ "" ],
-									"usedstrect" : [ 0 ],
-									"output_texture" : [ 0 ],
-									"loopstart" : [ 0 ],
+									"framereport" : [ 0 ],
+									"adapt" : [ 1 ],
+									"engine" : [ "avf" ],
+									"dstrect" : [ 0, 0, 1, 1 ],
+									"timescale" : [ 600 ],
+									"texture_name" : [ "u192000390" ],
 									"interp" : [ 0 ],
 									"usesrcrect" : [ 0 ],
-									"rate" : [ 1.0 ],
+									"framecount" : [ 0 ],
+									"looppoints" : [ 0, 0 ],
+									"duration" : [ 0 ],
+									"cache_size" : [ 0.1 ],
+									"fps" : [ 0.0 ],
+									"time_secs" : [ 0.0 ],
+									"usedstrect" : [ 0 ],
 									"time" : [ 0 ],
-									"dstrect" : [ 0, 0, 1, 1 ],
 									"autostart" : [ 1 ],
+									"loopend" : [ 0 ],
 									"moviefile" : [ "" ],
+									"srcrect" : [ 0, 0, 1, 1 ],
+									"colormode" : [ "argb" ],
+									"rate" : [ 1.0 ],
+									"position" : [ 0.0 ],
+									"loopreport" : [ 0 ],
+									"vol" : [ 1.0 ],
+									"output_texture" : [ 0 ],
 									"automatic" : [ 0 ],
-									"looppoints" : [ 0, 0 ]
+									"loopstart" : [ 0 ]
 								}
 
 							}
@@ -1843,31 +1900,36 @@
 									"outputmode" : [ 1 ],
 									"out_name" : [ "u964000392" ],
 									"dim" : [ 1, 1 ],
-									"srcrect" : [ 0, 0, 1, 1 ],
-									"position" : [ 0.0 ],
-									"framereport" : [ 0 ],
-									"time_secs" : [ 0.0 ],
-									"loopreport" : [ 0 ],
-									"vol" : [ 1.0 ],
-									"adapt" : [ 1 ],
 									"unique" : [ 0 ],
-									"texture_name" : [ "u192000390" ],
-									"colormode" : [ "argb" ],
-									"loopend" : [ 0 ],
-									"engine" : [ "avf" ],
 									"drawto" : [ "" ],
-									"usedstrect" : [ 0 ],
-									"output_texture" : [ 0 ],
-									"loopstart" : [ 0 ],
+									"framereport" : [ 0 ],
+									"adapt" : [ 1 ],
+									"engine" : [ "avf" ],
+									"dstrect" : [ 0, 0, 1, 1 ],
+									"timescale" : [ 600 ],
+									"texture_name" : [ "u192000390" ],
 									"interp" : [ 0 ],
 									"usesrcrect" : [ 0 ],
-									"rate" : [ 1.0 ],
+									"framecount" : [ 0 ],
+									"looppoints" : [ 0, 0 ],
+									"duration" : [ 0 ],
+									"cache_size" : [ 0.1 ],
+									"fps" : [ 0.0 ],
+									"time_secs" : [ 0.0 ],
+									"usedstrect" : [ 0 ],
 									"time" : [ 0 ],
-									"dstrect" : [ 0, 0, 1, 1 ],
 									"autostart" : [ 1 ],
+									"loopend" : [ 0 ],
 									"moviefile" : [ "" ],
+									"srcrect" : [ 0, 0, 1, 1 ],
+									"colormode" : [ "argb" ],
+									"rate" : [ 1.0 ],
+									"position" : [ 0.0 ],
+									"loopreport" : [ 0 ],
+									"vol" : [ 1.0 ],
+									"output_texture" : [ 0 ],
 									"automatic" : [ 0 ],
-									"looppoints" : [ 0, 0 ]
+									"loopstart" : [ 0 ]
 								}
 
 							}
@@ -1971,31 +2033,36 @@
 									"outputmode" : [ 1 ],
 									"out_name" : [ "u964000392" ],
 									"dim" : [ 1, 1 ],
-									"srcrect" : [ 0, 0, 1, 1 ],
-									"position" : [ 0.0 ],
-									"framereport" : [ 0 ],
-									"time_secs" : [ 0.0 ],
-									"loopreport" : [ 0 ],
-									"vol" : [ 1.0 ],
-									"adapt" : [ 1 ],
 									"unique" : [ 0 ],
-									"texture_name" : [ "u192000390" ],
-									"colormode" : [ "argb" ],
-									"loopend" : [ 0 ],
-									"engine" : [ "avf" ],
 									"drawto" : [ "" ],
-									"usedstrect" : [ 0 ],
-									"output_texture" : [ 0 ],
-									"loopstart" : [ 0 ],
+									"framereport" : [ 0 ],
+									"adapt" : [ 1 ],
+									"engine" : [ "avf" ],
+									"dstrect" : [ 0, 0, 1, 1 ],
+									"timescale" : [ 600 ],
+									"texture_name" : [ "u192000390" ],
 									"interp" : [ 0 ],
 									"usesrcrect" : [ 0 ],
-									"rate" : [ 1.0 ],
+									"framecount" : [ 0 ],
+									"looppoints" : [ 0, 0 ],
+									"duration" : [ 0 ],
+									"cache_size" : [ 0.1 ],
+									"fps" : [ 0.0 ],
+									"time_secs" : [ 0.0 ],
+									"usedstrect" : [ 0 ],
 									"time" : [ 0 ],
-									"dstrect" : [ 0, 0, 1, 1 ],
 									"autostart" : [ 1 ],
+									"loopend" : [ 0 ],
 									"moviefile" : [ "" ],
+									"srcrect" : [ 0, 0, 1, 1 ],
+									"colormode" : [ "argb" ],
+									"rate" : [ 1.0 ],
+									"position" : [ 0.0 ],
+									"loopreport" : [ 0 ],
+									"vol" : [ 1.0 ],
+									"output_texture" : [ 0 ],
 									"automatic" : [ 0 ],
-									"looppoints" : [ 0, 0 ]
+									"loopstart" : [ 0 ]
 								}
 
 							}
@@ -2076,31 +2143,36 @@
 									"outputmode" : [ 1 ],
 									"out_name" : [ "u964000392" ],
 									"dim" : [ 1, 1 ],
-									"srcrect" : [ 0, 0, 1, 1 ],
-									"position" : [ 0.0 ],
-									"framereport" : [ 0 ],
-									"time_secs" : [ 0.0 ],
-									"loopreport" : [ 0 ],
-									"vol" : [ 1.0 ],
-									"adapt" : [ 1 ],
 									"unique" : [ 0 ],
-									"texture_name" : [ "u192000390" ],
-									"colormode" : [ "argb" ],
-									"loopend" : [ 0 ],
-									"engine" : [ "avf" ],
 									"drawto" : [ "" ],
-									"usedstrect" : [ 0 ],
-									"output_texture" : [ 0 ],
-									"loopstart" : [ 0 ],
+									"framereport" : [ 0 ],
+									"adapt" : [ 1 ],
+									"engine" : [ "avf" ],
+									"dstrect" : [ 0, 0, 1, 1 ],
+									"timescale" : [ 600 ],
+									"texture_name" : [ "u192000390" ],
 									"interp" : [ 0 ],
 									"usesrcrect" : [ 0 ],
-									"rate" : [ 1.0 ],
+									"framecount" : [ 0 ],
+									"looppoints" : [ 0, 0 ],
+									"duration" : [ 0 ],
+									"cache_size" : [ 0.1 ],
+									"fps" : [ 0.0 ],
+									"time_secs" : [ 0.0 ],
+									"usedstrect" : [ 0 ],
 									"time" : [ 0 ],
-									"dstrect" : [ 0, 0, 1, 1 ],
 									"autostart" : [ 1 ],
+									"loopend" : [ 0 ],
 									"moviefile" : [ "" ],
+									"srcrect" : [ 0, 0, 1, 1 ],
+									"colormode" : [ "argb" ],
+									"rate" : [ 1.0 ],
+									"position" : [ 0.0 ],
+									"loopreport" : [ 0 ],
+									"vol" : [ 1.0 ],
+									"output_texture" : [ 0 ],
 									"automatic" : [ 0 ],
-									"looppoints" : [ 0, 0 ]
+									"loopstart" : [ 0 ]
 								}
 
 							}
@@ -2132,6 +2204,22 @@
 				}
 
 			}
+, 			{
+				"box" : 				{
+					"angle" : 270.0,
+					"bgcolor" : [ 0.952941, 0.564706, 0.098039, 0.3 ],
+					"id" : "obj-124",
+					"maxclass" : "panel",
+					"mode" : 0,
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 874.322876, 368.0, 252.354156, 299.0 ],
+					"presentation_rect" : [ 872.645813, 399.0, 0.0, 0.0 ],
+					"proportion" : 0.39,
+					"style" : ""
+				}
+
+			}
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
@@ -2144,10 +2232,10 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-19", 2 ],
+					"destination" : [ "obj-119", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"source" : [ "obj-103", 0 ]
+					"source" : [ "obj-104", 0 ]
 				}
 
 			}
@@ -2162,19 +2250,28 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-19", 3 ],
+					"destination" : [ "obj-107", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"source" : [ "obj-109", 0 ]
+					"source" : [ "obj-110", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-107", 0 ],
+					"destination" : [ "obj-120", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"source" : [ "obj-110", 0 ]
+					"source" : [ "obj-111", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-111", 1 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-113", 0 ]
 				}
 
 			}
@@ -2198,10 +2295,28 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-111", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-119", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-7", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-12", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-119", 1 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-123", 0 ]
 				}
 
 			}
@@ -2283,26 +2398,6 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-14", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-102", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"order" : 1,
-					"source" : [ "obj-19", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-84", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"order" : 0,
-					"source" : [ "obj-19", 0 ]
 				}
 
 			}
@@ -2625,15 +2720,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-19", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-72", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-64", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -2794,15 +2880,6 @@
 				}
 
 			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-19", 1 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-95", 0 ]
-				}
-
-			}
  ],
 		"dependency_cache" : [ 			{
 				"name" : "dishes.mov",
@@ -2925,7 +3002,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "minifyCentrify.maxpat",
+				"name" : "minifyCentrify2.maxpat",
 				"bootpath" : "~/Documents/GitKraken/S3-PROJET/ressourcesMAX/patchers",
 				"type" : "JSON",
 				"implicit" : 1
@@ -3034,8 +3111,8 @@
 , 			{
 				"name" : "newobjYellow-1",
 				"default" : 				{
-					"fontsize" : [ 12.059008 ],
-					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
+					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
+					"fontsize" : [ 12.059008 ]
 				}
 ,
 				"parentstyle" : "",
