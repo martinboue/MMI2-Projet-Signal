@@ -2,8 +2,8 @@
 	"name" : "ressourcesMAX",
 	"version" : 1,
 	"creationdate" : -707384645,
-	"modificationdate" : 3591882156,
-	"viewrect" : [ 16.0, 100.0, 321.0, 622.0 ],
+	"modificationdate" : -701883694,
+	"viewrect" : [ 22.0, 130.0, 321.0, 622.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
@@ -102,6 +102,11 @@
 			}
 ,
 			"compositing2.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"exportVideoAudio_jit.vcr.2.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -208,6 +213,11 @@
 				"local" : 1
 			}
 ,
+			"minifyCentrify2.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
 			"minifyCentrify.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
@@ -227,11 +237,6 @@
 				"kind" : "patcher",
 				"local" : 1
 			}
-,
-			"minifyCentrify2.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
 
 		}
 ,
@@ -247,6 +252,11 @@
 			}
 ,
 			"bball.mov" : 			{
+				"kind" : "moviefile",
+				"local" : 1
+			}
+,
+			"84.mp4" : 			{
 				"kind" : "moviefile",
 				"local" : 1
 			}
@@ -277,11 +287,6 @@
 			}
 ,
 			"tom.mov" : 			{
-				"kind" : "moviefile",
-				"local" : 1
-			}
-,
-			"84.mp4" : 			{
 				"kind" : "moviefile",
 				"local" : 1
 			}
