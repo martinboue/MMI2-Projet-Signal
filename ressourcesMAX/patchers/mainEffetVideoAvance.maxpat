@@ -4,12 +4,12 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 3,
-			"revision" : 4,
+			"revision" : 3,
 			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 453.0, 85.0, 1465.0, 836.0 ],
+		"rect" : [ 160.0, 79.0, 956.0, 655.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -43,7 +43,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1261.838501, 881.0, 494.015686, 48.0 ],
+					"patching_rect" : [ 1261.838501, 881.0, 494.015686, 47.0 ],
 					"style" : "",
 					"text" : "export vidéo au format Full HD accompagnée d'audio\nsi vous voulez changer la taille de la vidéo exportée modifier les arguments de l'objet jit.vcr dans le patch exportVideoAudio_jit.vcr.2.maxpat"
 				}
@@ -58,21 +58,21 @@
 								"selection" : [ 0.0, 1.0 ],
 								"loop" : 1,
 								"content_state" : 								{
-									"originallength" : [ 0.0, "ticks" ],
-									"originallengthms" : [ 0.0 ],
-									"pitchshift" : [ 1.0 ],
-									"formant" : [ 1.0 ],
-									"slurtime" : [ 0.0 ],
-									"quality" : [ "basic" ],
-									"timestretch" : [ 0 ],
-									"followglobaltempo" : [ 0 ],
-									"pitchcorrection" : [ 0 ],
-									"play" : [ 0 ],
-									"originaltempo" : [ 120.0 ],
 									"basictuning" : [ 440 ],
+									"originallength" : [ 0.0, "ticks" ],
+									"slurtime" : [ 0.0 ],
+									"followglobaltempo" : [ 0 ],
+									"originaltempo" : [ 120.0 ],
+									"play" : [ 0 ],
 									"formantcorrection" : [ 0 ],
+									"quality" : [ "basic" ],
+									"originallengthms" : [ 0.0 ],
+									"pitchcorrection" : [ 0 ],
+									"pitchshift" : [ 1.0 ],
+									"timestretch" : [ 0 ],
 									"mode" : [ "basic" ],
-									"speed" : [ 1.0 ]
+									"speed" : [ 1.0 ],
+									"formant" : [ 1.0 ]
 								}
 
 							}
@@ -224,35 +224,35 @@
 									"outputmode" : [ 1 ],
 									"out_name" : [ "u871000571" ],
 									"dim" : [ 1, 1 ],
-									"adapt" : [ 1 ],
-									"usesrcrect" : [ 0 ],
-									"engine" : [ "avf" ],
-									"framecount" : [ 0 ],
-									"cache_size" : [ 0.1 ],
-									"interp" : [ 0 ],
-									"time" : [ 0 ],
-									"texture_name" : [ "u206000569" ],
-									"looppoints" : [ 0, 0 ],
-									"loopstart" : [ 0 ],
-									"time_secs" : [ 0.0 ],
-									"output_texture" : [ 0 ],
-									"timescale" : [ 600 ],
-									"moviefile" : [ "" ],
-									"loopreport" : [ 0 ],
-									"framereport" : [ 0 ],
-									"usedstrect" : [ 0 ],
 									"automatic" : [ 0 ],
-									"loopend" : [ 0 ],
-									"position" : [ 0.0 ],
-									"duration" : [ 0 ],
+									"dstrect" : [ 0, 0, 1, 1 ],
+									"interp" : [ 0 ],
+									"adapt" : [ 1 ],
+									"output_texture" : [ 0 ],
 									"drawto" : [ "" ],
 									"autostart" : [ 1 ],
-									"colormode" : [ "argb" ],
-									"srcrect" : [ 0, 0, 1, 1 ],
+									"moviefile" : [ "" ],
+									"position" : [ 0.0 ],
 									"vol" : [ 1.0 ],
 									"unique" : [ 0 ],
+									"colormode" : [ "argb" ],
+									"texture_name" : [ "u206000569" ],
+									"framereport" : [ 0 ],
+									"srcrect" : [ 0, 0, 1, 1 ],
+									"time" : [ 0 ],
+									"loopend" : [ 0 ],
+									"usesrcrect" : [ 0 ],
+									"looppoints" : [ 0, 0 ],
+									"usedstrect" : [ 0 ],
 									"rate" : [ 1.0 ],
-									"dstrect" : [ 0, 0, 1, 1 ],
+									"loopreport" : [ 0 ],
+									"loopstart" : [ 0 ],
+									"engine" : [ "avf" ],
+									"time_secs" : [ 0.0 ],
+									"framecount" : [ 0 ],
+									"cache_size" : [ 0.1 ],
+									"timescale" : [ 600 ],
+									"duration" : [ 0 ],
 									"fps" : [ 0.0 ]
 								}
 
@@ -282,35 +282,35 @@
 									"outputmode" : [ 1 ],
 									"out_name" : [ "u871000571" ],
 									"dim" : [ 1, 1 ],
-									"adapt" : [ 1 ],
-									"usesrcrect" : [ 0 ],
-									"engine" : [ "avf" ],
-									"framecount" : [ 0 ],
-									"cache_size" : [ 0.1 ],
-									"interp" : [ 0 ],
-									"time" : [ 0 ],
-									"texture_name" : [ "u206000569" ],
-									"looppoints" : [ 0, 0 ],
-									"loopstart" : [ 0 ],
-									"time_secs" : [ 0.0 ],
-									"output_texture" : [ 0 ],
-									"timescale" : [ 600 ],
-									"moviefile" : [ "" ],
-									"loopreport" : [ 0 ],
-									"framereport" : [ 0 ],
-									"usedstrect" : [ 0 ],
 									"automatic" : [ 0 ],
-									"loopend" : [ 0 ],
-									"position" : [ 0.0 ],
-									"duration" : [ 0 ],
+									"dstrect" : [ 0, 0, 1, 1 ],
+									"interp" : [ 0 ],
+									"adapt" : [ 1 ],
+									"output_texture" : [ 0 ],
 									"drawto" : [ "" ],
 									"autostart" : [ 1 ],
-									"colormode" : [ "argb" ],
-									"srcrect" : [ 0, 0, 1, 1 ],
+									"moviefile" : [ "" ],
+									"position" : [ 0.0 ],
 									"vol" : [ 1.0 ],
 									"unique" : [ 0 ],
+									"colormode" : [ "argb" ],
+									"texture_name" : [ "u206000569" ],
+									"framereport" : [ 0 ],
+									"srcrect" : [ 0, 0, 1, 1 ],
+									"time" : [ 0 ],
+									"loopend" : [ 0 ],
+									"usesrcrect" : [ 0 ],
+									"looppoints" : [ 0, 0 ],
+									"usedstrect" : [ 0 ],
 									"rate" : [ 1.0 ],
-									"dstrect" : [ 0, 0, 1, 1 ],
+									"loopreport" : [ 0 ],
+									"loopstart" : [ 0 ],
+									"engine" : [ "avf" ],
+									"time_secs" : [ 0.0 ],
+									"framecount" : [ 0 ],
+									"cache_size" : [ 0.1 ],
+									"timescale" : [ 600 ],
+									"duration" : [ 0 ],
 									"fps" : [ 0.0 ]
 								}
 
@@ -479,35 +479,35 @@
 									"outputmode" : [ 1 ],
 									"out_name" : [ "u964000392" ],
 									"dim" : [ 1, 1 ],
-									"adapt" : [ 1 ],
-									"usesrcrect" : [ 0 ],
-									"engine" : [ "avf" ],
-									"framecount" : [ 0 ],
-									"cache_size" : [ 0.1 ],
-									"interp" : [ 0 ],
-									"time" : [ 0 ],
-									"texture_name" : [ "u192000390" ],
-									"looppoints" : [ 0, 0 ],
-									"loopstart" : [ 0 ],
-									"time_secs" : [ 0.0 ],
-									"output_texture" : [ 0 ],
-									"timescale" : [ 600 ],
-									"moviefile" : [ "" ],
-									"loopreport" : [ 0 ],
-									"framereport" : [ 0 ],
-									"usedstrect" : [ 0 ],
 									"automatic" : [ 0 ],
-									"loopend" : [ 0 ],
-									"position" : [ 0.0 ],
-									"duration" : [ 0 ],
+									"dstrect" : [ 0, 0, 1, 1 ],
+									"interp" : [ 0 ],
+									"adapt" : [ 1 ],
+									"output_texture" : [ 0 ],
 									"drawto" : [ "" ],
 									"autostart" : [ 1 ],
-									"colormode" : [ "argb" ],
-									"srcrect" : [ 0, 0, 1, 1 ],
+									"moviefile" : [ "" ],
+									"position" : [ 0.0 ],
 									"vol" : [ 1.0 ],
 									"unique" : [ 0 ],
+									"colormode" : [ "argb" ],
+									"texture_name" : [ "u192000390" ],
+									"framereport" : [ 0 ],
+									"srcrect" : [ 0, 0, 1, 1 ],
+									"time" : [ 0 ],
+									"loopend" : [ 0 ],
+									"usesrcrect" : [ 0 ],
+									"looppoints" : [ 0, 0 ],
+									"usedstrect" : [ 0 ],
 									"rate" : [ 1.0 ],
-									"dstrect" : [ 0, 0, 1, 1 ],
+									"loopreport" : [ 0 ],
+									"loopstart" : [ 0 ],
+									"engine" : [ "avf" ],
+									"time_secs" : [ 0.0 ],
+									"framecount" : [ 0 ],
+									"cache_size" : [ 0.1 ],
+									"timescale" : [ 600 ],
+									"duration" : [ 0 ],
 									"fps" : [ 0.0 ]
 								}
 
@@ -766,35 +766,35 @@
 									"outputmode" : [ 1 ],
 									"out_name" : [ "u964000392" ],
 									"dim" : [ 1, 1 ],
-									"adapt" : [ 1 ],
-									"usesrcrect" : [ 0 ],
-									"engine" : [ "avf" ],
-									"framecount" : [ 0 ],
-									"cache_size" : [ 0.1 ],
-									"interp" : [ 0 ],
-									"time" : [ 0 ],
-									"texture_name" : [ "u192000390" ],
-									"looppoints" : [ 0, 0 ],
-									"loopstart" : [ 0 ],
-									"time_secs" : [ 0.0 ],
-									"output_texture" : [ 0 ],
-									"timescale" : [ 600 ],
-									"moviefile" : [ "" ],
-									"loopreport" : [ 0 ],
-									"framereport" : [ 0 ],
-									"usedstrect" : [ 0 ],
 									"automatic" : [ 0 ],
-									"loopend" : [ 0 ],
-									"position" : [ 0.0 ],
-									"duration" : [ 0 ],
+									"dstrect" : [ 0, 0, 1, 1 ],
+									"interp" : [ 0 ],
+									"adapt" : [ 1 ],
+									"output_texture" : [ 0 ],
 									"drawto" : [ "" ],
 									"autostart" : [ 1 ],
-									"colormode" : [ "argb" ],
-									"srcrect" : [ 0, 0, 1, 1 ],
+									"moviefile" : [ "" ],
+									"position" : [ 0.0 ],
 									"vol" : [ 1.0 ],
 									"unique" : [ 0 ],
+									"colormode" : [ "argb" ],
+									"texture_name" : [ "u192000390" ],
+									"framereport" : [ 0 ],
+									"srcrect" : [ 0, 0, 1, 1 ],
+									"time" : [ 0 ],
+									"loopend" : [ 0 ],
+									"usesrcrect" : [ 0 ],
+									"looppoints" : [ 0, 0 ],
+									"usedstrect" : [ 0 ],
 									"rate" : [ 1.0 ],
-									"dstrect" : [ 0, 0, 1, 1 ],
+									"loopreport" : [ 0 ],
+									"loopstart" : [ 0 ],
+									"engine" : [ "avf" ],
+									"time_secs" : [ 0.0 ],
+									"framecount" : [ 0 ],
+									"cache_size" : [ 0.1 ],
+									"timescale" : [ 600 ],
+									"duration" : [ 0 ],
 									"fps" : [ 0.0 ]
 								}
 
@@ -882,7 +882,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1046.0, 116.0, 150.0, 34.0 ],
+					"patching_rect" : [ 1046.0, 116.0, 150.0, 33.0 ],
 					"style" : "",
 					"text" : "nombre d'images en retard"
 				}
@@ -908,7 +908,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 839.0, 55.0, 290.0, 62.0 ],
+					"patching_rect" : [ 839.0, 55.0, 290.0, 60.0 ],
 					"style" : "",
 					"text" : "argument 1 = nombre de plans de l'image\nargument 2 = largeur image en pixels\nargument 3 = hauteur image en pixels\nargument 4 = nombre max d'images en retard"
 				}
@@ -921,7 +921,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1027.0, 968.0, 196.0, 34.0 ],
+					"patching_rect" : [ 1027.0, 968.0, 196.0, 33.0 ],
 					"style" : "",
 					"text" : "réglage affichage et dimension du rectangle de détection"
 				}
@@ -1384,7 +1384,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1003.0, 922.0, 150.0, 34.0 ],
+					"patching_rect" : [ 1003.0, 922.0, 150.0, 33.0 ],
 					"style" : "",
 					"text" : "lecture en continu de la vidéo"
 				}
@@ -1414,35 +1414,35 @@
 									"outputmode" : [ 1 ],
 									"out_name" : [ "u747001368" ],
 									"dim" : [ 1, 1 ],
-									"adapt" : [ 1 ],
-									"usesrcrect" : [ 0 ],
-									"engine" : [ "avf" ],
-									"framecount" : [ 0 ],
-									"cache_size" : [ 0.1 ],
-									"interp" : [ 0 ],
-									"time" : [ 0 ],
-									"texture_name" : [ "u188001366" ],
-									"looppoints" : [ 0, 0 ],
-									"loopstart" : [ 0 ],
-									"time_secs" : [ 0.0 ],
-									"output_texture" : [ 0 ],
-									"timescale" : [ 600 ],
-									"moviefile" : [ "" ],
-									"loopreport" : [ 0 ],
-									"framereport" : [ 0 ],
-									"usedstrect" : [ 0 ],
 									"automatic" : [ 0 ],
-									"loopend" : [ 0 ],
-									"position" : [ 0.0 ],
-									"duration" : [ 0 ],
+									"dstrect" : [ 0, 0, 1, 1 ],
+									"interp" : [ 0 ],
+									"adapt" : [ 1 ],
+									"output_texture" : [ 0 ],
 									"drawto" : [ "" ],
 									"autostart" : [ 1 ],
-									"colormode" : [ "argb" ],
-									"srcrect" : [ 0, 0, 1, 1 ],
+									"moviefile" : [ "" ],
+									"position" : [ 0.0 ],
 									"vol" : [ 1.0 ],
 									"unique" : [ 0 ],
+									"colormode" : [ "argb" ],
+									"texture_name" : [ "u188001366" ],
+									"framereport" : [ 0 ],
+									"srcrect" : [ 0, 0, 1, 1 ],
+									"time" : [ 0 ],
+									"loopend" : [ 0 ],
+									"usesrcrect" : [ 0 ],
+									"looppoints" : [ 0, 0 ],
+									"usedstrect" : [ 0 ],
 									"rate" : [ 1.0 ],
-									"dstrect" : [ 0, 0, 1, 1 ],
+									"loopreport" : [ 0 ],
+									"loopstart" : [ 0 ],
+									"engine" : [ "avf" ],
+									"time_secs" : [ 0.0 ],
+									"framecount" : [ 0 ],
+									"cache_size" : [ 0.1 ],
+									"timescale" : [ 600 ],
+									"duration" : [ 0 ],
 									"fps" : [ 0.0 ]
 								}
 
@@ -1601,35 +1601,35 @@
 									"outputmode" : [ 1 ],
 									"out_name" : [ "u747001368" ],
 									"dim" : [ 1, 1 ],
-									"adapt" : [ 1 ],
-									"usesrcrect" : [ 0 ],
-									"engine" : [ "avf" ],
-									"framecount" : [ 0 ],
-									"cache_size" : [ 0.1 ],
-									"interp" : [ 0 ],
-									"time" : [ 0 ],
-									"texture_name" : [ "u188001366" ],
-									"looppoints" : [ 0, 0 ],
-									"loopstart" : [ 0 ],
-									"time_secs" : [ 0.0 ],
-									"output_texture" : [ 0 ],
-									"timescale" : [ 600 ],
-									"moviefile" : [ "" ],
-									"loopreport" : [ 0 ],
-									"framereport" : [ 0 ],
-									"usedstrect" : [ 0 ],
 									"automatic" : [ 0 ],
-									"loopend" : [ 0 ],
-									"position" : [ 0.0 ],
-									"duration" : [ 0 ],
+									"dstrect" : [ 0, 0, 1, 1 ],
+									"interp" : [ 0 ],
+									"adapt" : [ 1 ],
+									"output_texture" : [ 0 ],
 									"drawto" : [ "" ],
 									"autostart" : [ 1 ],
-									"colormode" : [ "argb" ],
-									"srcrect" : [ 0, 0, 1, 1 ],
+									"moviefile" : [ "" ],
+									"position" : [ 0.0 ],
 									"vol" : [ 1.0 ],
 									"unique" : [ 0 ],
+									"colormode" : [ "argb" ],
+									"texture_name" : [ "u188001366" ],
+									"framereport" : [ 0 ],
+									"srcrect" : [ 0, 0, 1, 1 ],
+									"time" : [ 0 ],
+									"loopend" : [ 0 ],
+									"usesrcrect" : [ 0 ],
+									"looppoints" : [ 0, 0 ],
+									"usedstrect" : [ 0 ],
 									"rate" : [ 1.0 ],
-									"dstrect" : [ 0, 0, 1, 1 ],
+									"loopreport" : [ 0 ],
+									"loopstart" : [ 0 ],
+									"engine" : [ "avf" ],
+									"time_secs" : [ 0.0 ],
+									"framecount" : [ 0 ],
+									"cache_size" : [ 0.1 ],
+									"timescale" : [ 600 ],
+									"duration" : [ 0 ],
 									"fps" : [ 0.0 ]
 								}
 
@@ -1791,35 +1791,35 @@
 									"outputmode" : [ 1 ],
 									"out_name" : [ "u747001368" ],
 									"dim" : [ 1, 1 ],
-									"adapt" : [ 1 ],
-									"usesrcrect" : [ 0 ],
-									"engine" : [ "avf" ],
-									"framecount" : [ 0 ],
-									"cache_size" : [ 0.1 ],
-									"interp" : [ 0 ],
-									"time" : [ 0 ],
-									"texture_name" : [ "u188001366" ],
-									"looppoints" : [ 0, 0 ],
-									"loopstart" : [ 0 ],
-									"time_secs" : [ 0.0 ],
-									"output_texture" : [ 0 ],
-									"timescale" : [ 600 ],
-									"moviefile" : [ "" ],
-									"loopreport" : [ 0 ],
-									"framereport" : [ 0 ],
-									"usedstrect" : [ 0 ],
 									"automatic" : [ 0 ],
-									"loopend" : [ 0 ],
-									"position" : [ 0.0 ],
-									"duration" : [ 0 ],
+									"dstrect" : [ 0, 0, 1, 1 ],
+									"interp" : [ 0 ],
+									"adapt" : [ 1 ],
+									"output_texture" : [ 0 ],
 									"drawto" : [ "" ],
 									"autostart" : [ 1 ],
-									"colormode" : [ "argb" ],
-									"srcrect" : [ 0, 0, 1, 1 ],
+									"moviefile" : [ "" ],
+									"position" : [ 0.0 ],
 									"vol" : [ 1.0 ],
 									"unique" : [ 0 ],
+									"colormode" : [ "argb" ],
+									"texture_name" : [ "u188001366" ],
+									"framereport" : [ 0 ],
+									"srcrect" : [ 0, 0, 1, 1 ],
+									"time" : [ 0 ],
+									"loopend" : [ 0 ],
+									"usesrcrect" : [ 0 ],
+									"looppoints" : [ 0, 0 ],
+									"usedstrect" : [ 0 ],
 									"rate" : [ 1.0 ],
-									"dstrect" : [ 0, 0, 1, 1 ],
+									"loopreport" : [ 0 ],
+									"loopstart" : [ 0 ],
+									"engine" : [ "avf" ],
+									"time_secs" : [ 0.0 ],
+									"framecount" : [ 0 ],
+									"cache_size" : [ 0.1 ],
+									"timescale" : [ 600 ],
+									"duration" : [ 0 ],
 									"fps" : [ 0.0 ]
 								}
 
@@ -1886,35 +1886,35 @@
 									"outputmode" : [ 1 ],
 									"out_name" : [ "u964000392" ],
 									"dim" : [ 1, 1 ],
-									"adapt" : [ 1 ],
-									"usesrcrect" : [ 0 ],
-									"engine" : [ "avf" ],
-									"framecount" : [ 0 ],
-									"cache_size" : [ 0.1 ],
-									"interp" : [ 0 ],
-									"time" : [ 0 ],
-									"texture_name" : [ "u192000390" ],
-									"looppoints" : [ 0, 0 ],
-									"loopstart" : [ 0 ],
-									"time_secs" : [ 0.0 ],
-									"output_texture" : [ 0 ],
-									"timescale" : [ 600 ],
-									"moviefile" : [ "" ],
-									"loopreport" : [ 0 ],
-									"framereport" : [ 0 ],
-									"usedstrect" : [ 0 ],
 									"automatic" : [ 0 ],
-									"loopend" : [ 0 ],
-									"position" : [ 0.0 ],
-									"duration" : [ 0 ],
+									"dstrect" : [ 0, 0, 1, 1 ],
+									"interp" : [ 0 ],
+									"adapt" : [ 1 ],
+									"output_texture" : [ 0 ],
 									"drawto" : [ "" ],
 									"autostart" : [ 1 ],
-									"colormode" : [ "argb" ],
-									"srcrect" : [ 0, 0, 1, 1 ],
+									"moviefile" : [ "" ],
+									"position" : [ 0.0 ],
 									"vol" : [ 1.0 ],
 									"unique" : [ 0 ],
+									"colormode" : [ "argb" ],
+									"texture_name" : [ "u192000390" ],
+									"framereport" : [ 0 ],
+									"srcrect" : [ 0, 0, 1, 1 ],
+									"time" : [ 0 ],
+									"loopend" : [ 0 ],
+									"usesrcrect" : [ 0 ],
+									"looppoints" : [ 0, 0 ],
+									"usedstrect" : [ 0 ],
 									"rate" : [ 1.0 ],
-									"dstrect" : [ 0, 0, 1, 1 ],
+									"loopreport" : [ 0 ],
+									"loopstart" : [ 0 ],
+									"engine" : [ "avf" ],
+									"time_secs" : [ 0.0 ],
+									"framecount" : [ 0 ],
+									"cache_size" : [ 0.1 ],
+									"timescale" : [ 600 ],
+									"duration" : [ 0 ],
 									"fps" : [ 0.0 ]
 								}
 
@@ -2042,35 +2042,35 @@
 									"outputmode" : [ 1 ],
 									"out_name" : [ "u964000392" ],
 									"dim" : [ 1, 1 ],
-									"adapt" : [ 1 ],
-									"usesrcrect" : [ 0 ],
-									"engine" : [ "avf" ],
-									"framecount" : [ 0 ],
-									"cache_size" : [ 0.1 ],
-									"interp" : [ 0 ],
-									"time" : [ 0 ],
-									"texture_name" : [ "u192000390" ],
-									"looppoints" : [ 0, 0 ],
-									"loopstart" : [ 0 ],
-									"time_secs" : [ 0.0 ],
-									"output_texture" : [ 0 ],
-									"timescale" : [ 600 ],
-									"moviefile" : [ "" ],
-									"loopreport" : [ 0 ],
-									"framereport" : [ 0 ],
-									"usedstrect" : [ 0 ],
 									"automatic" : [ 0 ],
-									"loopend" : [ 0 ],
-									"position" : [ 0.0 ],
-									"duration" : [ 0 ],
+									"dstrect" : [ 0, 0, 1, 1 ],
+									"interp" : [ 0 ],
+									"adapt" : [ 1 ],
+									"output_texture" : [ 0 ],
 									"drawto" : [ "" ],
 									"autostart" : [ 1 ],
-									"colormode" : [ "argb" ],
-									"srcrect" : [ 0, 0, 1, 1 ],
+									"moviefile" : [ "" ],
+									"position" : [ 0.0 ],
 									"vol" : [ 1.0 ],
 									"unique" : [ 0 ],
+									"colormode" : [ "argb" ],
+									"texture_name" : [ "u192000390" ],
+									"framereport" : [ 0 ],
+									"srcrect" : [ 0, 0, 1, 1 ],
+									"time" : [ 0 ],
+									"loopend" : [ 0 ],
+									"usesrcrect" : [ 0 ],
+									"looppoints" : [ 0, 0 ],
+									"usedstrect" : [ 0 ],
 									"rate" : [ 1.0 ],
-									"dstrect" : [ 0, 0, 1, 1 ],
+									"loopreport" : [ 0 ],
+									"loopstart" : [ 0 ],
+									"engine" : [ "avf" ],
+									"time_secs" : [ 0.0 ],
+									"framecount" : [ 0 ],
+									"cache_size" : [ 0.1 ],
+									"timescale" : [ 600 ],
+									"duration" : [ 0 ],
 									"fps" : [ 0.0 ]
 								}
 
@@ -2110,7 +2110,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 210.0, 173.0, 150.0, 62.0 ],
+					"patching_rect" : [ 210.0, 173.0, 150.0, 60.0 ],
 					"style" : "",
 					"text" : "ouvrez l'effet pour visualiser les conséquences des effets sur l'histogramme"
 				}
@@ -2242,35 +2242,35 @@
 									"outputmode" : [ 1 ],
 									"out_name" : [ "u964000392" ],
 									"dim" : [ 1, 1 ],
-									"adapt" : [ 1 ],
-									"usesrcrect" : [ 0 ],
-									"engine" : [ "avf" ],
-									"framecount" : [ 0 ],
-									"cache_size" : [ 0.1 ],
-									"interp" : [ 0 ],
-									"time" : [ 0 ],
-									"texture_name" : [ "u192000390" ],
-									"looppoints" : [ 0, 0 ],
-									"loopstart" : [ 0 ],
-									"time_secs" : [ 0.0 ],
-									"output_texture" : [ 0 ],
-									"timescale" : [ 600 ],
-									"moviefile" : [ "" ],
-									"loopreport" : [ 0 ],
-									"framereport" : [ 0 ],
-									"usedstrect" : [ 0 ],
 									"automatic" : [ 0 ],
-									"loopend" : [ 0 ],
-									"position" : [ 0.0 ],
-									"duration" : [ 0 ],
+									"dstrect" : [ 0, 0, 1, 1 ],
+									"interp" : [ 0 ],
+									"adapt" : [ 1 ],
+									"output_texture" : [ 0 ],
 									"drawto" : [ "" ],
 									"autostart" : [ 1 ],
-									"colormode" : [ "argb" ],
-									"srcrect" : [ 0, 0, 1, 1 ],
+									"moviefile" : [ "" ],
+									"position" : [ 0.0 ],
 									"vol" : [ 1.0 ],
 									"unique" : [ 0 ],
+									"colormode" : [ "argb" ],
+									"texture_name" : [ "u192000390" ],
+									"framereport" : [ 0 ],
+									"srcrect" : [ 0, 0, 1, 1 ],
+									"time" : [ 0 ],
+									"loopend" : [ 0 ],
+									"usesrcrect" : [ 0 ],
+									"looppoints" : [ 0, 0 ],
+									"usedstrect" : [ 0 ],
 									"rate" : [ 1.0 ],
-									"dstrect" : [ 0, 0, 1, 1 ],
+									"loopreport" : [ 0 ],
+									"loopstart" : [ 0 ],
+									"engine" : [ "avf" ],
+									"time_secs" : [ 0.0 ],
+									"framecount" : [ 0 ],
+									"cache_size" : [ 0.1 ],
+									"timescale" : [ 600 ],
+									"duration" : [ 0 ],
 									"fps" : [ 0.0 ]
 								}
 
@@ -2322,6 +2322,8 @@
 		"lines" : [ 			{
 				"patchline" : 				{
 					"destination" : [ "obj-79", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
 					"source" : [ "obj-100", 0 ]
 				}
 
@@ -2329,6 +2331,8 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-64", 3 ],
+					"disabled" : 0,
+					"hidden" : 0,
 					"source" : [ "obj-101", 0 ]
 				}
 
@@ -2336,6 +2340,8 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-85", 2 ],
+					"disabled" : 0,
+					"hidden" : 0,
 					"source" : [ "obj-102", 0 ]
 				}
 
@@ -2343,6 +2349,8 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-85", 3 ],
+					"disabled" : 0,
+					"hidden" : 0,
 					"source" : [ "obj-103", 0 ]
 				}
 
@@ -2350,6 +2358,8 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-85", 4 ],
+					"disabled" : 0,
+					"hidden" : 0,
 					"source" : [ "obj-104", 0 ]
 				}
 
@@ -2357,6 +2367,8 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-85", 5 ],
+					"disabled" : 0,
+					"hidden" : 0,
 					"source" : [ "obj-105", 0 ]
 				}
 
@@ -2364,6 +2376,8 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-64", 2 ],
+					"disabled" : 0,
+					"hidden" : 0,
 					"source" : [ "obj-106", 0 ]
 				}
 
@@ -2371,6 +2385,8 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-54", 1 ],
+					"disabled" : 0,
+					"hidden" : 0,
 					"source" : [ "obj-109", 0 ]
 				}
 
@@ -2378,6 +2394,8 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-100", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
 					"source" : [ "obj-113", 0 ]
 				}
 
@@ -2385,6 +2403,8 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-2", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
 					"source" : [ "obj-114", 0 ]
 				}
 
@@ -2392,6 +2412,8 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-64", 1 ],
+					"disabled" : 0,
+					"hidden" : 0,
 					"source" : [ "obj-115", 0 ]
 				}
 
@@ -2399,6 +2421,8 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-73", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
 					"order" : 0,
 					"source" : [ "obj-117", 0 ]
 				}
@@ -2407,6 +2431,8 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-99", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
 					"order" : 1,
 					"source" : [ "obj-117", 0 ]
 				}
@@ -2415,6 +2441,8 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-101", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
 					"order" : 0,
 					"source" : [ "obj-119", 0 ]
 				}
@@ -2423,6 +2451,8 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-106", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
 					"order" : 1,
 					"source" : [ "obj-119", 0 ]
 				}
@@ -2431,6 +2461,8 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-7", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
 					"source" : [ "obj-12", 0 ]
 				}
 
@@ -2438,6 +2470,8 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-85", 1 ],
+					"disabled" : 0,
+					"hidden" : 0,
 					"source" : [ "obj-121", 0 ]
 				}
 
@@ -2445,6 +2479,8 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-21", 1 ],
+					"disabled" : 0,
+					"hidden" : 0,
 					"source" : [ "obj-13", 0 ]
 				}
 
@@ -2452,6 +2488,8 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-135", 1 ],
+					"disabled" : 0,
+					"hidden" : 0,
 					"order" : 0,
 					"source" : [ "obj-132", 0 ]
 				}
@@ -2460,6 +2498,8 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-141", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
 					"order" : 1,
 					"source" : [ "obj-132", 0 ]
 				}
@@ -2468,6 +2508,8 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-136", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
 					"source" : [ "obj-134", 0 ]
 				}
 
@@ -2475,6 +2517,8 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-139", 3 ],
+					"disabled" : 0,
+					"hidden" : 0,
 					"source" : [ "obj-135", 0 ]
 				}
 
@@ -2482,6 +2526,8 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-135", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
 					"source" : [ "obj-137", 0 ]
 				}
 
@@ -2489,6 +2535,8 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-12", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
 					"source" : [ "obj-14", 0 ]
 				}
 
@@ -2496,6 +2544,8 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-139", 2 ],
+					"disabled" : 0,
+					"hidden" : 0,
 					"source" : [ "obj-141", 1 ]
 				}
 
@@ -2503,6 +2553,8 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-139", 1 ],
+					"disabled" : 0,
+					"hidden" : 0,
 					"source" : [ "obj-141", 0 ]
 				}
 
@@ -2510,6 +2562,8 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-85", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
 					"source" : [ "obj-142", 0 ]
 				}
 
@@ -2517,6 +2571,8 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-134", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
 					"source" : [ "obj-143", 0 ]
 				}
 
@@ -2524,6 +2580,8 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-134", 2 ],
+					"disabled" : 0,
+					"hidden" : 0,
 					"source" : [ "obj-145", 0 ]
 				}
 
@@ -2531,6 +2589,8 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-77", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
 					"source" : [ "obj-2", 0 ]
 				}
 
@@ -2538,6 +2598,8 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-35", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
 					"order" : 0,
 					"source" : [ "obj-21", 0 ]
 				}
@@ -2546,6 +2608,8 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-38", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
 					"order" : 1,
 					"source" : [ "obj-21", 0 ]
 				}
@@ -2554,6 +2618,8 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-24", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
 					"source" : [ "obj-22", 1 ]
 				}
 
@@ -2561,6 +2627,8 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-41", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
 					"source" : [ "obj-22", 0 ]
 				}
 
@@ -2568,6 +2636,8 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-21", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
 					"source" : [ "obj-26", 0 ]
 				}
 
@@ -2575,6 +2645,8 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-34", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
 					"source" : [ "obj-31", 0 ]
 				}
 
@@ -2582,6 +2654,8 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-34", 1 ],
+					"disabled" : 0,
+					"hidden" : 0,
 					"source" : [ "obj-33", 0 ]
 				}
 
@@ -2589,6 +2663,8 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-29", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
 					"source" : [ "obj-34", 0 ]
 				}
 
@@ -2596,6 +2672,8 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-38", 1 ],
+					"disabled" : 0,
+					"hidden" : 0,
 					"source" : [ "obj-35", 0 ]
 				}
 
@@ -2603,6 +2681,8 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-34", 2 ],
+					"disabled" : 0,
+					"hidden" : 0,
 					"source" : [ "obj-36", 0 ]
 				}
 
@@ -2610,6 +2690,8 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-30", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
 					"source" : [ "obj-38", 0 ]
 				}
 
@@ -2617,6 +2699,8 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-12", 1 ],
+					"disabled" : 0,
+					"hidden" : 0,
 					"source" : [ "obj-4", 0 ]
 				}
 
@@ -2624,6 +2708,8 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-77", 4 ],
+					"disabled" : 0,
+					"hidden" : 0,
 					"source" : [ "obj-40", 0 ]
 				}
 
@@ -2631,6 +2717,8 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-77", 3 ],
+					"disabled" : 0,
+					"hidden" : 0,
 					"source" : [ "obj-42", 0 ]
 				}
 
@@ -2638,6 +2726,8 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-77", 2 ],
+					"disabled" : 0,
+					"hidden" : 0,
 					"source" : [ "obj-43", 0 ]
 				}
 
@@ -2645,6 +2735,8 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-77", 1 ],
+					"disabled" : 0,
+					"hidden" : 0,
 					"source" : [ "obj-44", 0 ]
 				}
 
@@ -2652,6 +2744,8 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-46", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
 					"source" : [ "obj-47", 0 ]
 				}
 
@@ -2659,6 +2753,8 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-47", 1 ],
+					"disabled" : 0,
+					"hidden" : 0,
 					"source" : [ "obj-48", 0 ]
 				}
 
@@ -2666,6 +2762,8 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-47", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
 					"source" : [ "obj-5", 0 ]
 				}
 
@@ -2673,6 +2771,8 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-22", 1 ],
+					"disabled" : 0,
+					"hidden" : 0,
 					"source" : [ "obj-50", 0 ]
 				}
 
@@ -2680,6 +2780,8 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-47", 2 ],
+					"disabled" : 0,
+					"hidden" : 0,
 					"source" : [ "obj-51", 0 ]
 				}
 
@@ -2687,6 +2789,8 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-54", 2 ],
+					"disabled" : 0,
+					"hidden" : 0,
 					"source" : [ "obj-53", 0 ]
 				}
 
@@ -2694,6 +2798,8 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-22", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
 					"source" : [ "obj-54", 0 ]
 				}
 
@@ -2701,6 +2807,8 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-57", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
 					"source" : [ "obj-58", 0 ]
 				}
 
@@ -2708,6 +2816,8 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-52", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
 					"source" : [ "obj-59", 0 ]
 				}
 
@@ -2715,6 +2825,8 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-12", 2 ],
+					"disabled" : 0,
+					"hidden" : 0,
 					"source" : [ "obj-6", 0 ]
 				}
 
@@ -2722,6 +2834,8 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-22", 2 ],
+					"disabled" : 0,
+					"hidden" : 0,
 					"source" : [ "obj-61", 0 ]
 				}
 
@@ -2729,6 +2843,8 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-58", 1 ],
+					"disabled" : 0,
+					"hidden" : 0,
 					"order" : 1,
 					"source" : [ "obj-62", 0 ]
 				}
@@ -2737,6 +2853,8 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-65", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
 					"order" : 0,
 					"source" : [ "obj-62", 0 ]
 				}
@@ -2745,6 +2863,8 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-58", 2 ],
+					"disabled" : 0,
+					"hidden" : 0,
 					"order" : 1,
 					"source" : [ "obj-63", 0 ]
 				}
@@ -2753,6 +2873,8 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-66", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
 					"order" : 0,
 					"source" : [ "obj-63", 0 ]
 				}
@@ -2761,6 +2883,8 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-107", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
 					"order" : 0,
 					"source" : [ "obj-64", 0 ]
 				}
@@ -2769,6 +2893,8 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-134", 1 ],
+					"disabled" : 0,
+					"hidden" : 0,
 					"order" : 1,
 					"source" : [ "obj-64", 0 ]
 				}
@@ -2777,6 +2903,8 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-58", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
 					"source" : [ "obj-67", 0 ]
 				}
 
@@ -2784,6 +2912,8 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-67", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
 					"source" : [ "obj-68", 0 ]
 				}
 
@@ -2791,6 +2921,8 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-22", 3 ],
+					"disabled" : 0,
+					"hidden" : 0,
 					"source" : [ "obj-71", 0 ]
 				}
 
@@ -2798,6 +2930,8 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-64", 5 ],
+					"disabled" : 0,
+					"hidden" : 0,
 					"source" : [ "obj-73", 0 ]
 				}
 
@@ -2805,6 +2939,8 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-59", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
 					"order" : 0,
 					"source" : [ "obj-74", 0 ]
 				}
@@ -2813,6 +2949,8 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-70", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
 					"order" : 1,
 					"source" : [ "obj-74", 0 ]
 				}
@@ -2821,6 +2959,8 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-76", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
 					"source" : [ "obj-77", 0 ]
 				}
 
@@ -2828,6 +2968,8 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-47", 3 ],
+					"disabled" : 0,
+					"hidden" : 0,
 					"source" : [ "obj-79", 0 ]
 				}
 
@@ -2835,6 +2977,8 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-2", 1 ],
+					"disabled" : 0,
+					"hidden" : 0,
 					"source" : [ "obj-8", 0 ]
 				}
 
@@ -2842,6 +2986,8 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-22", 4 ],
+					"disabled" : 0,
+					"hidden" : 0,
 					"source" : [ "obj-80", 0 ]
 				}
 
@@ -2849,6 +2995,8 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-22", 5 ],
+					"disabled" : 0,
+					"hidden" : 0,
 					"source" : [ "obj-84", 0 ]
 				}
 
@@ -2856,6 +3004,8 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-83", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
 					"source" : [ "obj-85", 0 ]
 				}
 
@@ -2863,6 +3013,8 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-54", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
 					"source" : [ "obj-86", 0 ]
 				}
 
@@ -2870,6 +3022,8 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-50", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
 					"source" : [ "obj-87", 0 ]
 				}
 
@@ -2877,6 +3031,8 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-61", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
 					"source" : [ "obj-88", 0 ]
 				}
 
@@ -2884,6 +3040,8 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-71", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
 					"source" : [ "obj-89", 0 ]
 				}
 
@@ -2891,6 +3049,8 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-12", 3 ],
+					"disabled" : 0,
+					"hidden" : 0,
 					"source" : [ "obj-9", 0 ]
 				}
 
@@ -2898,6 +3058,8 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-80", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
 					"source" : [ "obj-90", 0 ]
 				}
 
@@ -2905,6 +3067,8 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-84", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
 					"source" : [ "obj-91", 0 ]
 				}
 
@@ -2912,6 +3076,8 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-64", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
 					"source" : [ "obj-92", 0 ]
 				}
 
@@ -2919,6 +3085,8 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-59", 1 ],
+					"disabled" : 0,
+					"hidden" : 0,
 					"source" : [ "obj-94", 0 ]
 				}
 
@@ -2926,6 +3094,8 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-64", 4 ],
+					"disabled" : 0,
+					"hidden" : 0,
 					"source" : [ "obj-99", 0 ]
 				}
 
@@ -2933,157 +3103,158 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "dishes.mov",
-				"bootpath" : "C74:/media/jitter",
+				"bootpath" : "~/Documents/GitKraken/S3-PROJET/ressourcesMAX/media",
+				"patcherrelativepath" : "../../../../../../../../Users/fguntz/Documents/GitKraken/S3-PROJET/ressourcesMAX/media",
 				"type" : "MooV",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "contraste.maxpat",
-				"bootpath" : "~/Documents/S3-PROJET/ressourcesMAX/patchers",
-				"patcherrelativepath" : ".",
+				"bootpath" : "~/Documents/GitKraken/S3-PROJET/ressourcesMAX/patchers",
+				"patcherrelativepath" : "../../../../../../../../Users/fguntz/Documents/GitKraken/S3-PROJET/ressourcesMAX/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "filtreConvolution.maxpat",
-				"bootpath" : "~/Documents/S3-PROJET/ressourcesMAX/patchers",
-				"patcherrelativepath" : ".",
+				"bootpath" : "~/Documents/GitKraken/S3-PROJET/ressourcesMAX/patchers",
+				"patcherrelativepath" : "../../../../../../../../Users/fguntz/Documents/GitKraken/S3-PROJET/ressourcesMAX/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "compositing.maxpat",
-				"bootpath" : "~/Documents/S3-PROJET/ressourcesMAX/patchers",
-				"patcherrelativepath" : ".",
+				"bootpath" : "~/Documents/GitKraken/S3-PROJET/ressourcesMAX/patchers",
+				"patcherrelativepath" : "../../../../../../../../Users/fguntz/Documents/GitKraken/S3-PROJET/ressourcesMAX/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "track2.mov",
-				"bootpath" : "C74:/media/jitter",
+				"bootpath" : "~/Documents/GitKraken/S3-PROJET/ressourcesMAX/media",
+				"patcherrelativepath" : "../../../../../../../../Users/fguntz/Documents/GitKraken/S3-PROJET/ressourcesMAX/media",
 				"type" : "MooV",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "binarisation.maxpat",
-				"bootpath" : "~/Documents/S3-PROJET/ressourcesMAX/patchers",
-				"patcherrelativepath" : ".",
+				"bootpath" : "~/Documents/GitKraken/S3-PROJET/ressourcesMAX/patchers",
+				"patcherrelativepath" : "../../../../../../../../Users/fguntz/Documents/GitKraken/S3-PROJET/ressourcesMAX/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "detectionMouvement.maxpat",
-				"bootpath" : "~/Documents/S3-PROJET/ressourcesMAX/patchers",
-				"patcherrelativepath" : ".",
+				"bootpath" : "~/Documents/GitKraken/S3-PROJET/ressourcesMAX/patchers",
+				"patcherrelativepath" : "../../../../../../../../Users/fguntz/Documents/GitKraken/S3-PROJET/ressourcesMAX/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ligneRetard.maxpat",
-				"bootpath" : "~/Documents/S3-PROJET/ressourcesMAX/patchers",
-				"patcherrelativepath" : ".",
+				"bootpath" : "~/Documents/GitKraken/S3-PROJET/ressourcesMAX/patchers",
+				"patcherrelativepath" : "../../../../../../../../Users/fguntz/Documents/GitKraken/S3-PROJET/ressourcesMAX/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "lecteurVideo_ipi.maxpat",
-				"bootpath" : "~/Documents/S3-PROJET/ressourcesMAX/patchers",
-				"patcherrelativepath" : ".",
+				"bootpath" : "~/Documents/GitKraken/S3-PROJET/ressourcesMAX/patchers",
+				"patcherrelativepath" : "../../../../../../../../Users/fguntz/Documents/GitKraken/S3-PROJET/ressourcesMAX/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bball.mov",
-				"bootpath" : "C74:/media/jitter",
+				"bootpath" : "~/Documents/GitKraken/S3-PROJET/ressourcesMAX/media",
+				"patcherrelativepath" : "../../../../../../../../Users/fguntz/Documents/GitKraken/S3-PROJET/ressourcesMAX/media",
 				"type" : "MooV",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "detectionCouleur.maxpat",
-				"bootpath" : "~/Documents/S3-PROJET/ressourcesMAX/patchers",
-				"patcherrelativepath" : ".",
+				"bootpath" : "~/Documents/GitKraken/S3-PROJET/ressourcesMAX/patchers",
+				"patcherrelativepath" : "../../../../../../../../Users/fguntz/Documents/GitKraken/S3-PROJET/ressourcesMAX/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "lecteurVideo.maxpat",
-				"bootpath" : "~/Documents/S3-PROJET/ressourcesMAX/patchers",
-				"patcherrelativepath" : ".",
+				"bootpath" : "~/Documents/GitKraken/S3-PROJET/ressourcesMAX/patchers",
+				"patcherrelativepath" : "../../../../../../../../Users/fguntz/Documents/GitKraken/S3-PROJET/ressourcesMAX/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "trackingCouleur.maxpat",
-				"bootpath" : "~/Documents/S3-PROJET/ressourcesMAX/patchers",
-				"patcherrelativepath" : ".",
+				"bootpath" : "~/Documents/GitKraken/S3-PROJET/ressourcesMAX/patchers",
+				"patcherrelativepath" : "../../../../../../../../Users/fguntz/Documents/GitKraken/S3-PROJET/ressourcesMAX/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dessin.maxpat",
-				"bootpath" : "~/Documents/S3-PROJET/ressourcesMAX/patchers",
-				"patcherrelativepath" : ".",
+				"bootpath" : "~/Documents/GitKraken/S3-PROJET/ressourcesMAX/patchers",
+				"patcherrelativepath" : "../../../../../../../../Users/fguntz/Documents/GitKraken/S3-PROJET/ressourcesMAX/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "compositingPiP.maxpat",
-				"bootpath" : "~/Documents/S3-PROJET/ressourcesMAX/patchers",
-				"patcherrelativepath" : ".",
+				"bootpath" : "~/Documents/GitKraken/S3-PROJET/ressourcesMAX/patchers",
+				"patcherrelativepath" : "../../../../../../../../Users/fguntz/Documents/GitKraken/S3-PROJET/ressourcesMAX/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "negatif.maxpat",
-				"bootpath" : "~/Documents/S3-PROJET/ressourcesMAX/patchers",
-				"patcherrelativepath" : ".",
+				"bootpath" : "~/Documents/GitKraken/S3-PROJET/ressourcesMAX/patchers",
+				"patcherrelativepath" : "../../../../../../../../Users/fguntz/Documents/GitKraken/S3-PROJET/ressourcesMAX/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "selectionZoneVideo.maxpat",
-				"bootpath" : "~/Documents/S3-PROJET/ressourcesMAX/patchers",
-				"patcherrelativepath" : ".",
+				"bootpath" : "~/Documents/GitKraken/S3-PROJET/ressourcesMAX/patchers",
+				"patcherrelativepath" : "../../../../../../../../Users/fguntz/Documents/GitKraken/S3-PROJET/ressourcesMAX/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "compositing2.maxpat",
-				"bootpath" : "~/Documents/S3-PROJET/ressourcesMAX/patchers",
-				"patcherrelativepath" : ".",
+				"bootpath" : "~/Documents/GitKraken/S3-PROJET/ressourcesMAX/patchers",
+				"patcherrelativepath" : "../../../../../../../../Users/fguntz/Documents/GitKraken/S3-PROJET/ressourcesMAX/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "exportVideoAudio_jit.vcr.2.maxpat",
-				"bootpath" : "~/Documents/S3-PROJET/ressourcesMAX/patchers",
-				"patcherrelativepath" : ".",
+				"bootpath" : "~/Documents/GitKraken/S3-PROJET/ressourcesMAX/patchers",
+				"patcherrelativepath" : "../../../../../../../../Users/fguntz/Documents/GitKraken/S3-PROJET/ressourcesMAX/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "social.aif",
-				"bootpath" : "C74:/packages/max-mxj/examples",
+				"bootpath" : "~/Documents/GitKraken/S3-PROJET/ressourcesMAX/media",
+				"patcherrelativepath" : "../../../../../../../../Users/fguntz/Documents/GitKraken/S3-PROJET/ressourcesMAX/media",
 				"type" : "AIFF",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "rca.mov",
-				"bootpath" : "C74:/media/jitter",
+				"bootpath" : "~/Documents/GitKraken/S3-PROJET/ressourcesMAX/media",
+				"patcherrelativepath" : "../../../../../../../../Users/fguntz/Documents/GitKraken/S3-PROJET/ressourcesMAX/media",
 				"type" : "MooV",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "jit.pass.mxe",
-				"type" : "iLaF"
+				"name" : "cv.jit.blobs.centroids.mxo",
+				"type" : "iLaX"
 			}
 , 			{
-				"name" : "cv.jit.blobs.centroids.mxe",
-				"type" : "iLaF"
-			}
-, 			{
-				"name" : "cv.jit.label.mxe",
-				"type" : "iLaF"
+				"name" : "cv.jit.label.mxo",
+				"type" : "iLaX"
 			}
  ],
 		"autosave" : 0,
@@ -3189,8 +3360,8 @@
 , 			{
 				"name" : "newobjYellow-1",
 				"default" : 				{
-					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
-					"fontsize" : [ 12.059008 ]
+					"fontsize" : [ 12.059008 ],
+					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
