@@ -2,7 +2,7 @@
 	"name" : "ressourcesMAX",
 	"version" : 1,
 	"creationdate" : -707384645,
-	"modificationdate" : -696731513,
+	"modificationdate" : -696713866,
 	"viewrect" : [ 22.0, 130.0, 321.0, 622.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -240,12 +240,7 @@
 ,
 			"syphon-serveur-clientMAX.maxpat" : 			{
 				"kind" : "patcher",
-				"local" : 1,
-				"singleton" : 				{
-					"bootpath" : "~/Documents/Max 7/Bac à sable/OpenGL",
-					"projectrelativepath" : "../../../Max 7/Bac à sable/OpenGL"
-				}
-
+				"local" : 1
 			}
 ,
 			"progressiveBlur.maxpat" : 			{
