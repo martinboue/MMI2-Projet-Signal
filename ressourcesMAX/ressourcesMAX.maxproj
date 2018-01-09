@@ -2,7 +2,7 @@
 	"name" : "ressourcesMAX",
 	"version" : 1,
 	"creationdate" : -707384645,
-	"modificationdate" : -696713866,
+	"modificationdate" : -696615635,
 	"viewrect" : [ 22.0, 130.0, 321.0, 622.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -252,6 +252,11 @@
 				"kind" : "patcher",
 				"local" : 1
 			}
+,
+			"SPOUTSender.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
 
 		}
 ,
@@ -314,6 +319,10 @@
 		}
 ,
 		"externals" : 		{
+
+		}
+,
+		"other" : 		{
 
 		}
 
